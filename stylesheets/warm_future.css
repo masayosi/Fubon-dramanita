@@ -1,0 +1,457 @@
+/* index */
+.wf-index-main-bg{ 
+    width:980px;
+    height:450px; 
+    background:url(../img/content/warm_future/wf_index_bg_01.png) no-repeat; 
+    position:relative;
+}
+
+.wf-index-dream-frame{
+    width: 141px;
+    height: 270px;
+    background: url(../img/content/warm_future/wf_index_image_01.png) no-repeat;
+    position: absolute;
+    top: 222px;
+    left: 791px;
+}
+
+.wf-index-dream-number{
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 36px;
+    color: #d53449;
+    text-align: center;
+    position: absolute;
+    top: 295px;
+    left: 798px;
+}
+
+.wf-index-btn-01{
+    width: 37px;
+    height: 163px;
+    position: absolute;
+    top: 38px;
+    left: 660px;
+}
+
+.wf-index-btn-01 a{
+    display:block;
+    width: 37px;
+    height: 163px;
+    background: url(../img/content/warm_future/wf_index_btn_01.png) no-repeat;
+}
+
+.wf-index-btn-02{
+    width: 36px;
+    height: 169px;
+    position: absolute;
+    top: 33px;
+    left: 760px;
+}
+
+.wf-index-btn-02 a{
+    display:block;
+    width: 36px;
+    height: 169px;
+    background: url(../img/content/warm_future/wf_index_btn_02.png) no-repeat;
+}
+
+.wf-index-btn-03{
+    width: 43px;
+    height: 168px;
+    position: absolute;
+    top: 32px;
+    left: 560px;
+}
+
+.wf-index-btn-03 a{
+    display:block;
+    width: 43px;
+    height: 168px;
+    background: url(../img/content/warm_future/wf_index_btn_03.png) no-repeat;
+}
+
+.wf-donation-drift-btn{
+    position:absolute;
+    top:100px; 
+    left:919px;
+    z-index:999;
+}
+
+.wf-donation-drift-btn div{
+    width:39px;
+    height:171px;
+}
+
+.wf-donation-drift-btn-02{
+    margin-top:30px;
+}
+
+.wf-donation-header{
+    width:980px; 
+    height:210px; 
+    position:relative;
+    overflow:hidden;
+    background-color:#f9f2e6;
+}
+
+.wf-donation-header-bg-01{
+    width:980px; 
+    height:210px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:url(../img/content/warm_future/wf_gd_bg_02.png) no-repeat;
+}
+
+.wf-donation-header-bg-02{
+    width:980px; 
+    height:210px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:url(../img/content/warm_future/wf_gd_bg_01.png) no-repeat;
+}
+
+.wf-donation-header-bg-03{
+    width:980px; 
+    height:210px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:url(../img/content/warm_future/wf_gd_line_01.png) no-repeat;
+}
+
+.wf-donation-header-title{
+    width:456px; 
+    height:58px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:url(../img/content/warm_future/wf_gd_header_title_01.png) no-repeat;  
+}
+
+.wf-donation-header-btn-01{
+    width:178px; 
+    height:64px;
+    position:absolute;
+    top:95px;
+    left:575px;
+}
+
+.wf-donation-header-btn-01 a{
+    display:block;
+    width:178px; 
+    height:64px;
+    background:url(../img/content/warm_future/wf_gd_btn_01.png) no-repeat;  
+}
+
+.wf-donation-header-btn-02{
+    width:178px; 
+    height:63px;
+    position:absolute;
+    top:95px;
+    left:220px;
+}
+
+.wf-donation-header-btn-02 a{
+    display:block;
+    width:178px; 
+    height:63px;
+    background:url(../img/content/warm_future/wf_gd_btn_02.png) no-repeat;  
+}
+
+.wf-donation-content{
+    padding-top:50px;
+    padding-bottom:50px;
+    width:980px;
+    min-height:650px;
+    background-color:#f9f2e6;
+}
+
+.wf-donation-content-left{
+    text-align:center;
+    width:490px;
+    float:left;
+}
+
+.wf-donation-content-left img{
+    display: block;
+    margin: 0 auto;
+}
+
+.wf-donation-content-right{
+    width:490px;
+    float:left;
+}
+
+.wf-donation-city-title{
+    margin-bottom:40px;
+}
+
+.wf-donation-city-panel{
+    width:387px;
+    height:393px;
+    background:url(../img/content/warm_future/wf_gd_frame_01.png) no-repeat;
+ }
+ 
+.wf-donation-city-table{
+    width:387px;
+    height:200px;
+    padding-top:48px;
+}
+
+.wf-donation-city-table .table{
+    width:380px;
+}
+
+.wf-donation-city-table .table .td{
+    text-align:center;
+    line-height:33px;
+    font-weight:700;
+    font-size:12px;
+}
+
+.wf-donation-city-table .link{
+    color:#3b778d;
+    text-decoration:none;
+}
+
+.wf-donation-city-table .table .td01{
+    width:120px;
+    color:#3b778d
+}
+
+.wf-donation-city-table .table .td02{
+    width:70px;
+    color:#f0a853
+}
+
+.wf-donation-city-table .table .td03{
+    width:120px;    
+    color:#3b778d
+}
+
+.wf-donation-city-table .table .td04{
+    width:70px;    
+    color:#f0a853
+}
+
+.wf-donation-school-panel{
+    width:387px;
+    height:454px;
+    background:url(../img/content/warm_future/wf_gs_frame_01.png) no-repeat;
+ }
+
+.wf-donation-school-table{
+    width:387px;
+    height:330px;
+    padding-top:60px;
+}
+
+.wf-donation-school-paging{
+    width:387px;
+    padding-top:25px;
+}
+
+.wf-donation-school-table .table{
+    width:380px;
+}
+
+.wf-donation-school-table .table .td{
+    text-align:center;
+    line-height:33px;
+    font-weight:700;
+    font-size:12px;
+}
+
+.wf-donation-school-table .link{
+    color:#3b778d;
+    text-decoration:none;
+}
+
+.wf-donation-school-table .table .td01{
+    width:190x;
+    color:#333333;
+}
+
+.wf-donation-school-table .table .td02{
+    width:190px;
+    color:#f0a853;
+}
+
+.wf-donation-school-table .link{
+    color:#333333;
+    text-decoration:underline;
+}
+
+.table-paging{
+    
+}
+
+.table-paging .prev{
+    text-align:left;
+    width:40px;
+}
+
+.table-paging .prev a{
+    font-weight:700;
+    color:#bababa;
+}
+
+.table-paging .page{
+    text-align:center;
+    width:20px;
+}
+
+.table-paging .page a{
+    font-weight:700;
+    color:#bababa;
+}
+
+.table-paging .page span{
+    font-weight:700;
+    color:#f0a853;
+}
+
+.table-paging .next{
+    text-align:right;
+    width:40px;
+}
+
+.table-paging .next a{
+    font-weight:700;
+    color:#bababa;
+}
+
+.wf-donation-list-header{
+    width:980px; 
+    height:100px; 
+    background-color:#f9f2e6;
+}
+
+.wf-donation-list-title{
+    width:793px;
+    height:135px;
+    margin:auto;    
+}
+
+.wf-donation-list-table{
+    position:relative;
+    background:url(../img/content/warm_future/wf_gl_frame_01.png) no-repeat;
+    width:797px;
+    height:623px;
+    margin:auto;
+    margin-top:50px;
+}
+ 
+.wf-donation-list-table-title{
+    position:absolute;
+    width:170px;
+    height:25px;
+    line-height:25px;
+    text-align:center;
+    top:5px;
+    left:12px;
+    color:#3e716a;
+    font-size:16px;
+    font-weight:700;
+}
+ 
+.wf-donation-list-table-btn01{
+    position:absolute;
+    width:173px;
+    height:19px;
+    top:10px;
+    left:493px;
+}
+ 
+.wf-donation-list-table-btn01 a{
+    display:block;
+    width:173px;
+    height:19px;
+    background:url(../img/content/warm_future/wf_gl_btn_01.png) no-repeat;
+}
+ 
+.wf-donation-list-table-btn02{
+    position:absolute;
+    width:101px;
+    height:18px;
+    top:10px;
+    left:678px;
+}
+ 
+.wf-donation-list-table-btn02 a{
+    display:block;
+    width:101px;
+    height:18px;
+    background:url(../img/content/warm_future/wf_gl_btn_02.png) no-repeat;
+}
+
+.wf-donation-list-table-th{
+    position:absolute;
+    top:50px;
+    left:3px;
+}
+
+.wf-donation-list-table-th .list-table td{
+    text-align:center;
+    color:#0d5672;
+    font-size:16px;
+    font-weight: bold;
+}
+
+.wf-donation-list-table-td{
+    position:absolute;
+    top:105px;
+    left:3px;
+}
+
+.wf-donation-list-table-td .list-table td{
+    line-height:42px;
+    text-align:center;
+}
+
+.wf-donation-list-paging{
+    position:absolute;
+    top:570px;
+    left:3px;
+    width:790px;
+    height:30px;
+    line-height:30px;
+}
+
+.gl-td-width-01{
+    width:85px;
+}
+
+.gl-td-width-02{
+    width:71px;
+}
+
+.gl-td-width-03{
+    width:115px;
+}
+
+.gl-td-width-04{
+    width:73px;
+}
+
+.gl-td-width-05{
+    width:333px;
+}
+
+.gl-td-width-06{
+    width:106px;
+}
+
+.gl-link-01{
+    text-decoration:underline;
+    color:#000000;
+}
+
+.gl-link-02{
+    text-decoration:underline;
+    color:#0d5672;
+}
