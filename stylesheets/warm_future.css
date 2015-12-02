@@ -123,6 +123,24 @@
     background:url(../img/content/warm_future/wf_gd_line_01.png) no-repeat;
 }
 
+.wf-donation-header-bg-04{
+    width:980px; 
+    height:210px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:url(../img/content/warm_future/wf-gi-header-02.png) no-repeat;
+}
+
+.wf-donation-header-bg-05{
+    width:980px; 
+    height:210px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:url(../img/content/warm_future/wf-gi-header-01.png) no-repeat;
+}
+
 .wf-donation-header-title{
     width:456px; 
     height:58px;
@@ -220,22 +238,22 @@
 
 .wf-donation-city-table .table .td01{
     width:120px;
-    color:#3b778d
+    color:#3b778d;
 }
 
 .wf-donation-city-table .table .td02{
     width:70px;
-    color:#f0a853
+    color:#f0a853;
 }
 
 .wf-donation-city-table .table .td03{
     width:120px;    
-    color:#3b778d
+    color:#3b778d;
 }
 
 .wf-donation-city-table .table .td04{
     width:70px;    
-    color:#f0a853
+    color:#f0a853;
 }
 
 .wf-donation-school-panel{
@@ -454,4 +472,305 @@
 .gl-link-02{
     text-decoration:underline;
     color:#0d5672;
+}
+
+.wf-donation-list-popup{
+    display:none;
+    width:835px;
+    height:785px;
+    background-color:#f9f2e6;
+    position:relative;
+}
+
+.gl-list-popup-close{
+    position:absolute;
+    width:40px;
+    height:40px;
+    top:10px;
+    left:780px;
+}
+
+.gl-list-popup-title-01{
+    padding-top:20px;
+}
+
+.gl-list-popup-title-02{
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.gl-list-popup-table{
+    position:relative;
+    background:url(../img/content/warm_future/wf-gl-my-frame-01.png) no-repeat;
+    width:710px;
+    height:454px;
+    margin:auto;
+}
+
+.gl-list-popup-table-th{
+    position:absolute;
+    top:20px;
+    left:3px;
+}
+
+.gl-list-popup-table-th .list-table td{
+    text-align:center;
+    color:#0d5672;
+    font-size:16px;
+    font-weight: bold;
+}
+
+.gl-list-popup-table-td{
+    position:absolute;
+    top:60px;
+    left:3px;
+}
+
+.gl-list-popup-table-td .list-table td{
+    line-height:33px;
+    text-align:center;
+}
+
+.gl-list-popup-table-paging{
+    position:absolute;
+    top:410px;
+    left:3px;
+    width:700px;
+    height:30px;
+    line-height:30px;
+}
+
+.gl-list-popup-btn{
+    width:275px;
+    height:40px;
+    margin:auto;
+    margin-top:30px;
+}
+
+.gl-popup-btn01{
+    display:block;
+    float:left;
+    background:url(../img/content/warm_future/wf-gl-my-btn-01.png) no-repeat;
+    width:116px;
+    height:40px;
+    margin-right:40px;
+}
+
+.gl-popup-btn02{
+    display:block;
+    float:left;
+    background:url(../img/content/warm_future/wf-gl-my-btn-02.png) no-repeat;
+    width:116px;
+    height:40px;
+}
+
+.gl-popup-td-width-01{
+    width:94px;
+}
+
+.gl-popup-td-width-02{
+    width:105px;
+}
+
+.gl-popup-td-width-03{
+    width:86px;
+}
+
+.gl-popup-td-width-04{
+    width:73px;
+}
+
+.gl-popup-td-width-05{
+    width:108px;
+}
+
+.gl-popup-td-width-06{
+    width:108px;
+}
+
+.gl-popup-td-width-07{
+    width:122px;
+}
+
+.wf-donation-item-title{
+    width:382px;
+    height:107px;
+    margin:auto;    
+}
+
+.gi-icon-table td{ 
+    width:110px;
+    height:150px;
+    line-height:100px;
+}
+
+.gi-category-icon-01{
+    display:block;
+    width:55px;
+    height:59px;
+    background:url(../img/content/warm_future/wf-gi-icon-01.png) no-repeat;
+    margin:auto;
+}
+
+.gi-category-icon-02{
+    display:block;
+    width:37px;
+    height:71px;
+    background:url(../img/content/warm_future/wf-gi-icon-02.png) no-repeat;
+    margin:auto;
+}
+
+.gi-category-icon-03{
+    display:block;
+    width:36px;
+    height:67px;
+    background:url(../img/content/warm_future/wf-gi-icon-03.png) no-repeat;
+    margin:auto;
+}
+
+.gi-category-icon-04{
+    display:block;
+    width:55px;
+    height:63px;
+    background:url(../img/content/warm_future/wf-gi-icon-04.png) no-repeat;
+    margin:auto;
+}
+
+.gi-category-icon-05{
+    display:block;
+    width:94px;
+    height:65px;
+    background:url(../img/content/warm_future/wf-gi-icon-05.png) no-repeat;
+    margin:auto;
+}
+
+
+.gi-category-icon-06{
+    display:block;
+    width:74px;
+    height:67px;
+    background:url(../img/content/warm_future/wf-gi-icon-06.png) no-repeat;
+    margin:auto;
+}
+
+
+.gi-category-icon-07{
+    display:block;
+    width:74px;
+    height:62px;
+    background:url(../img/content/warm_future/wf-gi-icon-07.png) no-repeat;
+    margin:auto;
+}
+
+.gi-category-icon-08{
+    display:block;
+    width:45px;
+    height:62px;
+    background:url(../img/content/warm_future/wf-gi-icon-08.png) no-repeat;
+    margin:auto;
+}
+
+.gi-category-icon-09{
+    display:block;
+    width:73px;
+    height:81px;
+    background:url(../img/content/warm_future/wf-gi-icon-09.png) no-repeat;
+    margin:auto;
+}
+
+.gi-category-icon-10{
+    display:block;
+    width:40px;
+    height:68px;
+    background:url(../img/content/warm_future/wf-gi-icon-10.png) no-repeat;
+    margin:auto;
+}
+
+.gi-category-icon-11{
+    display:block;
+    width:36px;
+    height:75px;
+    background:url(../img/content/warm_future/wf-gi-icon-11.png) no-repeat;
+    margin:auto;
+}
+
+.gi-category-icon-12{
+    display:block;
+    width:43px;
+    height:67px;
+    background:url(../img/content/warm_future/wf-gi-icon-12.png) no-repeat;
+    margin:auto;
+}
+
+.gi-category-icon-13{
+    display:block;
+    width:55px;
+    height:71px;
+    background:url(../img/content/warm_future/wf-gi-icon-13.png) no-repeat;
+    margin:auto;
+}
+
+
+.gi-category-icon-14{
+    display:block;
+    width:39px;
+    height:67px;
+    background:url(../img/content/warm_future/wf-gi-icon-14.png) no-repeat;
+    margin:auto;
+}
+
+.wf-donation-item-table{
+    position:relative;
+    background:url(../img/content/warm_future/wf-gi-frame-01.png) no-repeat;
+    width:387px;
+    height:432px;
+    margin:auto;
+    margin-top:50px;
+}
+
+.wf-donation-item-table-title{
+    position:absolute;
+    width:180px;
+    height:25px;
+    line-height:25px;
+    text-align:center;
+    top:5px;
+    left:100px;
+    color:#3e716a;
+    font-size:16px;
+    font-weight:700;
+}
+
+.wf-donation-item-list-table{
+    position:absolute;
+    top:45px;
+    left:3px;
+}
+
+.wf-donation-item-list-table .list-table td{
+    line-height:33px;
+    text-align:center;
+}
+
+.wf-donation-item-list-paging{
+    position:absolute;
+    top:390px;
+    left:3px;
+    width:380px;
+    height:30px;
+    line-height:30px;
+}
+
+.gi-td-width-01{
+    width:189px;
+}
+
+.gi-td-width-01 a{
+    color:#000000;
+    text-decoration:underline;
+}
+
+.gi-td-width-02{
+    color:#f0a853;
+    width:189px;
 }
