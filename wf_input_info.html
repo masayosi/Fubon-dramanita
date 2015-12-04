@@ -236,8 +236,8 @@
                 <input id="agree" type="checkbox"><label for="agree">&nbsp;&nbsp;我已閱讀並同意告知聲明暨同意書</label>
             </div>
             <div class="wf-ii-btn">
-                <a href="" class="wf-ii-btn01"></a>
-                <a href="" class="wf-ii-btn02"></a>
+                <a href="#" onClick="canel_order()" class="wf-ii-btn01"></a>
+                <a href="wf_input_success.html" class="wf-ii-btn02"></a>
             </div>
         </form>
     </div>
@@ -249,6 +249,12 @@
 <script src="js/plugin/jquery.powertip.min.js"></script> 
 <script type="text/javascript">
 set_title_tip();
+
+function canel_order(){
+    if(confirm("訂單尚未完成，確定取消？")){
+        window.location = "wf_donation_list.html";
+    }
+}
 </script>
 </body>
 </html>
