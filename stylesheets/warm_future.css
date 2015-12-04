@@ -918,7 +918,7 @@
     position:relative;
     background:url(../img/content/warm_future/wf-gi-frame-01.png) no-repeat;
     width:387px;
-    height:432px;
+    height:498px;
     margin:auto;
     margin-top:50px;
 }
@@ -947,7 +947,7 @@
 
 .wf-donation-item-list-table{
     position:absolute;
-    top:45px;
+    top:105px;
     left:3px;
 }
 
@@ -958,7 +958,7 @@
 
 .wf-donation-item-list-paging{
     position:absolute;
-    top:390px;
+    top:450px;
     left:3px;
     width:380px;
     height:30px;
