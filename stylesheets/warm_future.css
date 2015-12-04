@@ -945,9 +945,15 @@
     font-weight:700;
 }
 
-.wf-donation-item-list-table{
+.wf-donation-item-table .wf-donation-item-list-table{
     position:absolute;
     top:105px;
+    left:3px;
+}
+
+.wf-donation-item-list-table{
+    position:absolute;
+    top:46px;
     left:3px;
 }
 
