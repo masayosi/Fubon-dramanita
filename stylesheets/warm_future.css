@@ -428,7 +428,6 @@
 
 .wf-donation-list-table-td .list-table td{
     line-height:43px;
-    text-align:center;
 }
 
 .wf-donation-list-paging{
@@ -442,26 +441,37 @@
 
 .gl-td-width-01{
     width:85px;
+    text-align:center;
 }
 
 .gl-td-width-02{
     width:71px;
+    text-align:center;
 }
 
 .gl-td-width-03{
     width:115px;
+    text-align:center;
 }
 
 .gl-td-width-04{
     width:73px;
+    text-align:center;
 }
 
 .gl-td-width-05{
+    text-align:left;
     width:333px;
+}
+
+.gl-td-width-05 span{
+    display:block;
+    margin-left:30px;
 }
 
 .gl-td-width-06{
     width:106px;
+    text-align:center;
 }
 
 .gl-link-01{
@@ -598,6 +608,135 @@
     margin:auto;    
 }
 
+.wf-donation-gi-category{
+    position:relative;
+}
+
+.wf-tooltip-01{
+    background:url(../img/content/warm_future/wf_tip_01.png) no-repeat;
+    width:78px;
+    height:70px;
+}
+
+.wf-tooltip-01 a{
+    display:block;
+    padding-top:34px;
+    width:78px;
+    height:36px;
+    line-height:36px;
+    font-weight:bold;
+    color:#3e716a;
+    text-align:center;
+}
+
+.wf-tooltip-02{
+    background:url(../img/content/warm_future/wf_tip_02.png) no-repeat;
+    width:78px;
+    height:36px;
+}
+
+.wf-tooltip-02 a{
+    display:block;
+    width:78px;
+    height:36px;
+    line-height:36px;
+    font-weight:bold;
+    color:#3e716a;
+    text-align:center;
+}
+
+.wf-tooltip-03{
+    background:url(../img/content/warm_future/wf_tip_03.png) no-repeat;
+    width:78px;
+    height:36px;
+}
+
+.wf-tooltip-03 a{
+    display:block;
+    width:78px;
+    height:36px;
+    line-height:36px;
+    font-weight:bold;
+    color:#3e716a;
+    text-align:center;
+}
+
+.gi-tooltip{
+    position:absolute;
+    display:none;
+    z-index:99;
+}
+
+.gi-tooltip-l1{
+    top: 85px;
+    left: 120px;
+}
+
+.gi-tooltip-l2{
+    top: 95px;
+    left: 233px;
+}
+
+.gi-tooltip-l3{
+    top: 88px;
+    left: 343px;
+}
+
+.gi-tooltip-l4{
+    top: 85px;
+    left: 451px;
+}
+
+.gi-tooltip-l5{
+    top: 90px;
+    left: 562px;
+}
+
+.gi-tooltip-l6{
+    top: 88px;
+    left: 675px;
+}
+
+.gi-tooltip-l7{
+    top: 85px;
+    left: 780px;
+}
+
+.gi-tooltip-l8{
+    top: 240px;
+    left: 120px;
+}
+
+.gi-tooltip-l9{
+    top: 245px;
+    left: 233px;
+}
+
+.gi-tooltip-l10{
+    top: 240px;
+    left: 343px;
+}
+
+.gi-tooltip-l11{
+    top: 245px;
+    left: 451px;
+}
+
+.gi-tooltip-l12{
+    top: 240px;
+    left: 562px;
+}
+
+.gi-tooltip-l13{
+    top: 245px;
+    left: 675px;
+}
+
+.gi-tooltip-l14{
+    top: 240px;
+    left: 780px;
+}
+
 .gi-icon-table td{ 
     width:110px;
     height:150px;
@@ -719,6 +858,62 @@
     margin:auto;
 }
 
+.gi-category-icon-01:hover{
+    background:url(../img/content/warm_future/wf-gi-icon-o-01.png) no-repeat;
+}
+
+.gi-category-icon-02:hover{
+    background:url(../img/content/warm_future/wf-gi-icon-o-02.png) no-repeat;
+}
+
+.gi-category-icon-03:hover{
+    background:url(../img/content/warm_future/wf-gi-icon-o-03.png) no-repeat;
+}
+
+.gi-category-icon-04:hover{
+    background:url(../img/content/warm_future/wf-gi-icon-o-04.png) no-repeat;
+}
+
+.gi-category-icon-05:hover{
+    background:url(../img/content/warm_future/wf-gi-icon-o-05.png) no-repeat;
+}
+
+.gi-category-icon-06:hover{
+    background:url(../img/content/warm_future/wf-gi-icon-o-06.png) no-repeat;
+}
+
+.gi-category-icon-07:hover{
+    background:url(../img/content/warm_future/wf-gi-icon-o-07.png) no-repeat;
+}
+
+.gi-category-icon-08:hover{
+    background:url(../img/content/warm_future/wf-gi-icon-o-08.png) no-repeat;
+}
+
+.gi-category-icon-09:hover{
+    background:url(../img/content/warm_future/wf-gi-icon-o-09.png) no-repeat;
+}
+
+.gi-category-icon-10:hover{
+    background:url(../img/content/warm_future/wf-gi-icon-o-10.png) no-repeat;
+}
+
+.gi-category-icon-11:hover{
+    background:url(../img/content/warm_future/wf-gi-icon-o-11.png) no-repeat;
+}
+
+.gi-category-icon-12:hover{
+    background:url(../img/content/warm_future/wf-gi-icon-o-12.png) no-repeat;
+}
+
+.gi-category-icon-13:hover{
+    background:url(../img/content/warm_future/wf-gi-icon-o-13.png) no-repeat;
+}
+
+.gi-category-icon-14:hover{
+    background:url(../img/content/warm_future/wf-gi-icon-o-14.png) no-repeat;
+}
+
 .wf-donation-item-table{
     position:relative;
     background:url(../img/content/warm_future/wf-gi-frame-01.png) no-repeat;
@@ -825,7 +1020,6 @@
 
 .wf-ii-table-td .list-table td{
     line-height:33px;
-    text-align:center;
 }
 
 .wf-ii-paging{
@@ -839,30 +1033,42 @@
 
 .wf-ii-td-width-01{
     width:101px;
+    text-align:center;
 }
 
 .wf-ii-td-width-02{
     width:117px;
+    text-align:center;
 }
 
 .wf-ii-td-width-03{
     width:102px;
+    text-align:center;
 }
 
 .wf-ii-td-width-04{
     width:83px;
+    text-align:center;
 }
 
 .wf-ii-td-width-05{
     width:108px;
+    text-align:center;
 }
 
 .wf-ii-td-width-06{
     width:108px;
+    text-align:center;
 }
 
 .wf-ii-td-width-07{
     width:167px;
+    text-align:left;
+}
+
+.wf-ii-td-width-07 span{
+    display:block;
+    margin-left:15px;
 }
 
 .wf-ii-input{
@@ -1087,4 +1293,18 @@
     background:url(../img/content/warm_future/wf-is-btn-01.png) no-repeat;
     width:116px;
     height:40px;
+}
+
+.content img {
+    display:inline-block;
+}
+
+.wf-tip-icon-01{
+    display:inline-block;
+}
+
+.wf-tip-icon-01 img{
+  vertical-align : middle;
+  margin-top:0px;
+  margin-left:3px;
 }

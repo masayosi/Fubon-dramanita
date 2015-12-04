@@ -12,6 +12,7 @@
 <script type="text/javascript" src="js/lib/jquery-1.9.0.min.js"></script>
 <link rel="stylesheet" href="stylesheets/vendor/jquery.bxslider.css"/>
 <script type="text/javascript" src="js/plugin/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="js/wf_global.js"></script>
 </head>
 <body>
 <div class="header"><a href="index.html"><img src="img/header/logo.png" height="32" width="149" class="logo"/></a>
@@ -52,8 +53,8 @@
         <div class="wf-donation-header-bg-02"></div>
         <div class="wf-donation-header-bg-05"></div>
         <div class="wf-donation-header-title"></div>
-        <div class="wf-donation-header-btn-01"><a href=""></a></div>
-        <div class="wf-donation-header-btn-02"><a href=""></a></div>
+        <div class="wf-donation-header-btn-01"><a href="wf_donation_item.html"></a></div>
+        <div class="wf-donation-header-btn-02"><a href="wf_donation_city.html"></a></div>
     </div>
     <div class="wf-donation-content">
         <div class="wf-donation-item-title">
@@ -62,31 +63,100 @@
         <div class="wf-donation-gi-category">
             <table cellpadding="0" cellspacing="0" border="0" align="center" class="gi-icon-table">
                 <tr>
-                    <td><a href="#" class="gi-category-icon-01"></a></td>
-                    <td><a href="#" class="gi-category-icon-02"></a></td>
-                    <td><a href="#" class="gi-category-icon-03"></a></td>
-                    <td><a href="#" class="gi-category-icon-04"></a></td>
-                    <td><a href="#" class="gi-category-icon-05"></a></td>
-                    <td><a href="#" class="gi-category-icon-06"></a></td>
-                    <td><a href="#" class="gi-category-icon-07"></a></td>
+                    <td><a id="gi-tooltip-l1" href="#" class="gi-category-icon-01 gi-category-icon"></a></td>
+                    <td><a id="gi-tooltip-l2" href="#" class="gi-category-icon-02 gi-category-icon"></a></td>
+                    <td><a id="gi-tooltip-l3" href="#" class="gi-category-icon-03 gi-category-icon"></a></td>
+                    <td><a id="gi-tooltip-l4" href="#" class="gi-category-icon-04 gi-category-icon"></a></td>
+                    <td><a id="gi-tooltip-l5" href="#" class="gi-category-icon-05 gi-category-icon"></a></td>
+                    <td><a id="gi-tooltip-l6" href="#" class="gi-category-icon-06 gi-category-icon"></a></td>
+                    <td><a id="gi-tooltip-l7" href="#" class="gi-category-icon-07 gi-category-icon"></a></td>
                 </tr>
                 <tr>
-                    <td><a href="#" class="gi-category-icon-08"></a></td>
-                    <td><a href="#" class="gi-category-icon-09"></a></td>
-                    <td><a href="#" class="gi-category-icon-10"></a></td>
-                    <td><a href="#" class="gi-category-icon-11"></a></td>
-                    <td><a href="#" class="gi-category-icon-12"></a></td>
-                    <td><a href="#" class="gi-category-icon-13"></a></td>
-                    <td><a href="#" class="gi-category-icon-14"></a></td>
+                    <td><a id="gi-tooltip-l8" href="#" class="gi-category-icon-08 gi-category-icon"></a></td>
+                    <td><a id="gi-tooltip-l9" href="#" class="gi-category-icon-09 gi-category-icon"></a></td>
+                    <td><a id="gi-tooltip-l10" href="#" class="gi-category-icon-10 gi-category-icon"></a></td>
+                    <td><a id="gi-tooltip-l11" href="#" class="gi-category-icon-11 gi-category-icon"></a></td>
+                    <td><a id="gi-tooltip-l12" href="#" class="gi-category-icon-12 gi-category-icon"></a></td>
+                    <td><a id="gi-tooltip-l13" href="#" class="gi-category-icon-13 gi-category-icon"></a></td>
+                    <td><a id="gi-tooltip-l14" href="#" class="gi-category-icon-14 gi-category-icon"></a></td>
                 </tr>
             </table>
+            <div id="tooltip_01" class="gi-tooltip gi-tooltip-l1">
+                <div class="wf-tooltip-01"><a href="#">足球</a></div>
+                <div class="wf-tooltip-02"><a href="#">足球</a></div>
+                <div class="wf-tooltip-03"><a href="#">足球</a></div>
+            </div>
+            <div id="tooltip_02" class="gi-tooltip gi-tooltip-l2">
+                <div class="wf-tooltip-01"><a href="#">足球</a></div>
+                <div class="wf-tooltip-03"><a href="#">足球</a></div>
+            </div>
+            <div id="tooltip_03" class="gi-tooltip gi-tooltip-l3">
+                <div class="wf-tooltip-01"><a href="#">足球</a></div>
+                <div class="wf-tooltip-02"><a href="#">足球</a></div>
+                <div class="wf-tooltip-03"><a href="#">足球</a></div>
+            </div>
+            <div id="tooltip_04" class="gi-tooltip gi-tooltip-l4">
+                <div class="wf-tooltip-01"><a href="#">足球</a></div>
+                <div class="wf-tooltip-03"><a href="#">足球</a></div>
+            </div>
+            <div id="tooltip_05" class="gi-tooltip gi-tooltip-l5">
+                <div class="wf-tooltip-01"><a href="#">足球</a></div>
+                <div class="wf-tooltip-02"><a href="#">足球</a></div>
+                <div class="wf-tooltip-02"><a href="#">足球</a></div>
+                <div class="wf-tooltip-03"><a href="#">足球</a></div>
+            </div>
+            <div id="tooltip_06" class="gi-tooltip gi-tooltip-l6">
+                <div class="wf-tooltip-01"><a href="#">足球</a></div>
+                <div class="wf-tooltip-02"><a href="#">足球</a></div>
+                <div class="wf-tooltip-03"><a href="#">足球</a></div>
+            </div>
+            <div id="tooltip_07" class="gi-tooltip gi-tooltip-l7">
+                <div class="wf-tooltip-01"><a href="#">足球</a></div>
+                <div class="wf-tooltip-03"><a href="#">足球</a></div>
+            </div>
+            <div id="tooltip_08" class="gi-tooltip gi-tooltip-l8">
+                <div class="wf-tooltip-01"><a href="#">足球</a></div>
+                <div class="wf-tooltip-02"><a href="#">足球</a></div>
+                <div class="wf-tooltip-02"><a href="#">足球</a></div>
+                <div class="wf-tooltip-03"><a href="#">足球</a></div>
+            </div>
+            <div id="tooltip_09" class="gi-tooltip gi-tooltip-l9">
+                <div class="wf-tooltip-01"><a href="#">足球</a></div>
+                <div class="wf-tooltip-02"><a href="#">足球</a></div>
+                <div class="wf-tooltip-03"><a href="#">足球</a></div>
+            </div>
+            <div id="tooltip_10" class="gi-tooltip gi-tooltip-l10">
+                <div class="wf-tooltip-01"><a href="#">足球</a></div>
+                <div class="wf-tooltip-03"><a href="#">足球</a></div>
+            </div>
+            <div id="tooltip_11" class="gi-tooltip gi-tooltip-l11">
+                <div class="wf-tooltip-01"><a href="#">足球</a></div>
+                <div class="wf-tooltip-02"><a href="#">足球</a></div>
+                <div class="wf-tooltip-02"><a href="#">足球</a></div>
+                <div class="wf-tooltip-03"><a href="#">足球</a></div>
+            </div>
+            <div id="tooltip_12" class="gi-tooltip gi-tooltip-l12">
+                <div class="wf-tooltip-01"><a href="#">足球</a></div>
+                <div class="wf-tooltip-02"><a href="#">足球</a></div>
+                <div class="wf-tooltip-03"><a href="#">足球</a></div>
+            </div>
+            <div id="tooltip_13" class="gi-tooltip gi-tooltip-l13">
+                <div class="wf-tooltip-01"><a href="#">足球</a></div>
+                <div class="wf-tooltip-03"><a href="#">足球</a></div>
+            </div>
+            <div id="tooltip_14" class="gi-tooltip gi-tooltip-l14">
+                <div class="wf-tooltip-01"><a href="#">足球</a></div>
+                <div class="wf-tooltip-02"><a href="#">足球</a></div>
+                <div class="wf-tooltip-02"><a href="#">足球</a></div>
+                <div class="wf-tooltip-03"><a href="#">足球</a></div>
+            </div>
         </div>
         <div class="wf-donation-item-table">
             <div class="wf-donation-item-table-title">躲避球&nbsp;/&nbsp;台北市</div>
             <div class="wf-donation-item-list-table">
                 <table cellpadding="0" cellspacing="0" border="0" class="list-table">
                     <tr>
-                        <td class="gi-td-width-01"><a href="">信義國小</a></td>
+                        <td class="gi-td-width-01"><a href="">信義國小</a><div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div></td>
                         <td class="gi-td-width-02">20</td>
                     </tr>
                     <tr>
@@ -147,5 +217,29 @@
     </div>
 </div>
 <script src="js/donation_drift_btn.js"></script>
+<script src="js/plugin/jquery.powertip.min.js"></script> 
+<link rel="stylesheet" href="stylesheets/vendor/jquery.powertip-light.min.css"/>
+<script>
+    set_title_tip();
+    $('.gi-category-icon').mouseover(function() {
+        var id_key = $(this).attr('id');
+        $('.gi-tooltip').css('display','none');
+        $('.' + id_key).css('display','block');
+    });
+    
+    $('.gi-category-icon').mouseout(function() {
+        $('.gi-tooltip').css('display','none');
+    });
+    
+    $('.gi-tooltip').mouseover(function() {
+        $(this).css('display','block');
+    });
+    
+    $('.gi-tooltip').mouseout(function() {
+        $(this).css('display','none');
+    });
+    
+    
+</script>
 </body>
 </html>
