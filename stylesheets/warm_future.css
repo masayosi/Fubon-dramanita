@@ -465,7 +465,7 @@
 }
 
 .gl-td-width-05 span{
-    display:block;
+    display:inline;
     margin-left:30px;
 }
 
@@ -1076,7 +1076,7 @@
 }
 
 .wf-ii-td-width-07 span{
-    display:block;
+    display:inline;
     margin-left:15px;
 }
 
