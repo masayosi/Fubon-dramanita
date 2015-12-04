@@ -923,6 +923,15 @@
     margin-top:50px;
 }
 
+.wf-donation-school-item-table{
+    position:relative;
+    background:url(../img/content/warm_future/wf-gsi-frame-01.png) no-repeat;
+    width:387px;
+    height:382px;
+    margin:auto;
+    margin-top:50px;
+}
+
 .wf-donation-item-table-title{
     position:absolute;
     width:180px;
@@ -1307,4 +1316,8 @@
   vertical-align : middle;
   margin-top:0px;
   margin-left:3px;
+}
+
+.gsi-number-text{
+    color:#f0a853;
 }
