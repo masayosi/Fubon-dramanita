@@ -880,14 +880,14 @@ a {
   background: url(../img/content/boss-article/activity-big-btn-hover.png);
 }
 /* line 169, ../../src/sass/style.sass */
-.content .bossbig-btn {
+.content .bossbig-text-btn {
   width: 241px;
   height: 45px;
-  background: url(../img/content/boss-article/boss-activity/bossbig-btn.png);
+  background: url(../img/content/boss-article/boss-activity/bossbig-text-btn.png);
 }
 /* line 165, ../../src/sass/style.sass */
-.content .bossbig-btn:hover {
-  background: url(../img/content/boss-article/boss-activity/bossbig-btn-hover.png);
+.content .bossbig-text-btn:hover {
+  background: url(../img/content/boss-article/boss-activity/bossbig-text-btn-hover.png);
 }
 /* line 171, ../../src/sass/style.sass */
 .content .activity-vedio-btn {
@@ -900,7 +900,7 @@ a {
   background: url(../img/content/boss-article/boss-activity/vedio-btn-hover.png);
 }
 /* line 173, ../../src/sass/style.sass */
-.content .activity-vedio-btn, .content .bossbig-btn, .content .activity-big-btn {
+.content .activity-vedio-btn, .content .bossbig-text-btn, .content .activity-big-btn {
   margin-left: 15px;
   float: left;
 }
