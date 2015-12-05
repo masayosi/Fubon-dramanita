@@ -1120,6 +1120,7 @@
     -moz-border-radius: 5px;
     border-radius: 5px;
     border:0px;
+    behavior: url(PIE.htc); 
 }
 
 .wf-ii-form-select{
@@ -1130,6 +1131,7 @@
     border-radius: 5px;
     border:0px;
     margin-right:10px;
+    behavior: url(PIE.htc); 
 }
 
 .wf-ii-statement{
