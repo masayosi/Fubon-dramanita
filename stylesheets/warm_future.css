@@ -471,7 +471,11 @@
 
 .gl-td-width-06{
     width:106px;
-    text-align:center;
+    text-align:left;
+}
+
+.gl-td-width-06 table{
+    margin-left:20px;
 }
 
 .gl-link-01{
@@ -489,6 +493,12 @@
     width:835px;
     height:785px;
     background-color:#f9f2e6;
+    overflow-y:auto;
+}
+
+.wf-donation-list-popup-view{
+    width:835px;
+    height:785px;
     position:relative;
 }
 
