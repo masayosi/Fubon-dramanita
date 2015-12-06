@@ -203,6 +203,20 @@ body
     margin: 0 auto;
 }
 
+.wf-donation-content-left #flashContent{
+    position: relative;
+    z-index: 2;
+    bottom: 652px;
+    left: -15px;
+}
+
+.wf-donation-content-left >img{
+    position: relative;
+    z-index: 1;
+    bottom: -3px;
+    left: 8px;
+}
+
 .wf-donation-content-right{
     width:490px;
     float:left;
