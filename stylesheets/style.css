@@ -16,10 +16,10 @@
   top: 40px;
   right: 0;
   z-index: 2;
-  width: 562px;
+  width: 685px;
 }
 /* line 15, ../../src/sass/partial/_header.sass */
-.header .nav .item1, .header .owl-menu .item1, .header .nav .item2, .header .owl-menu .item2, .header .nav .item3, .header .owl-menu .item3, .header .nav .item4, .header .owl-menu .item4 {
+.header .nav .item1, .header .owl-menu .item1, .header .nav .item2, .header .owl-menu .item2, .header .nav .item3, .header .owl-menu .item3, .header .nav .item4, .header .owl-menu .item4, .header .nav .item5, .header .owl-menu .item5 {
   display: block;
   float: left;
   height: 40px;
@@ -27,31 +27,31 @@
   position: relative;
 }
 /* line 21, ../../src/sass/partial/_header.sass */
-.header .nav .item1 > a, .header .owl-menu .item1 > a, .header .nav .item2 > a, .header .owl-menu .item2 > a, .header .nav .item3 > a, .header .owl-menu .item3 > a, .header .nav .item4 > a, .header .owl-menu .item4 > a {
+.header .nav .item1 > a, .header .owl-menu .item1 > a, .header .nav .item2 > a, .header .owl-menu .item2 > a, .header .nav .item3 > a, .header .owl-menu .item3 > a, .header .nav .item4 > a, .header .owl-menu .item4 > a, .header .nav .item5 > a, .header .owl-menu .item5 > a {
   display: block;
   height: 40px;
 }
 /* line 24, ../../src/sass/partial/_header.sass */
-.header .nav .item1 ul, .header .owl-menu .item1 ul, .header .nav .item2 ul, .header .owl-menu .item2 ul, .header .nav .item3 ul, .header .owl-menu .item3 ul, .header .nav .item4 ul, .header .owl-menu .item4 ul {
+.header .nav .item1 ul, .header .owl-menu .item1 ul, .header .nav .item2 ul, .header .owl-menu .item2 ul, .header .nav .item3 ul, .header .owl-menu .item3 ul, .header .nav .item4 ul, .header .owl-menu .item4 ul, .header .nav .item5 ul, .header .owl-menu .item5 ul {
   padding-top: 19px;
   display: none;
   position: absolute;
   background: url(../img/header/submenu/arrow.png) top center no-repeat;
 }
 /* line 29, ../../src/sass/partial/_header.sass */
-.header .nav .item1 ul li, .header .owl-menu .item1 ul li, .header .nav .item2 ul li, .header .owl-menu .item2 ul li, .header .nav .item3 ul li, .header .owl-menu .item3 ul li, .header .nav .item4 ul li, .header .owl-menu .item4 ul li {
+.header .nav .item1 ul li, .header .owl-menu .item1 ul li, .header .nav .item2 ul li, .header .owl-menu .item2 ul li, .header .nav .item3 ul li, .header .owl-menu .item3 ul li, .header .nav .item4 ul li, .header .owl-menu .item4 ul li, .header .nav .item5 ul li, .header .owl-menu .item5 ul li {
   height: 40px;
   width: 138px;
   margin: 0 auto;
 }
 /* line 42, ../../src/sass/partial/_header.sass */
 .header .nav > .item1, .header .owl-menu > .item1 {
-  width: 155px;
-  background: url(../img/header/boss.png);
+  width: 89px;
+  background: url(../img/header/warm.png);
 }
 /* line 45, ../../src/sass/partial/_header.sass */
 .header .nav > .item1:hover, .header .owl-menu > .item1:hover {
-  background: url(../img/header/boss-hover.png);
+  background: url(../img/header/warm-hover.png);
 }
 /* line 47, ../../src/sass/partial/_header.sass */
 .header .nav > .item1 a, .header .owl-menu > .item1 a {
@@ -59,7 +59,7 @@
 }
 /* line 49, ../../src/sass/partial/_header.sass */
 .header .nav > .item1 ul, .header .owl-menu > .item1 ul {
-  left: 7px;
+  left: 5px;
 }
 /* line 51, ../../src/sass/partial/_header.sass */
 .header .nav > .item1 ul .sub1, .header .owl-menu > .item1 ul .sub1 {
@@ -87,123 +87,169 @@
 }
 /* line 57, ../../src/sass/partial/_header.sass */
 .header .nav > .item2, .header .owl-menu > .item2 {
-  width: 96px;
-  background: url(../img/header/life.png);
+  width: 155px;
+  background: url(../img/header/boss.png);
 }
 /* line 60, ../../src/sass/partial/_header.sass */
 .header .nav > .item2:hover, .header .owl-menu > .item2:hover {
-  background: url(../img/header/life-hover.png);
+  background: url(../img/header/boss-hover.png);
 }
 /* line 62, ../../src/sass/partial/_header.sass */
 .header .nav > .item2 a, .header .owl-menu > .item2 a {
-  width: 96px;
+  width: 155px;
 }
 /* line 64, ../../src/sass/partial/_header.sass */
 .header .nav > .item2 ul, .header .owl-menu > .item2 ul {
-  left: -20px;
+  left: 7px;
 }
 /* line 66, ../../src/sass/partial/_header.sass */
 .header .nav > .item2 ul .sub1, .header .owl-menu > .item2 ul .sub1 {
-  background: url(../img/header/submenu/life-sub1.png);
+  background: url(../img/header/submenu/boss-sub1.png);
 }
 /* line 40, ../../src/sass/partial/_header.sass */
 .header .nav > .item2 ul .sub1:hover, .header .owl-menu > .item2 ul .sub1:hover {
-  background: url(../img/header/submenu/life-sub1-hover.png);
+  background: url(../img/header/submenu/boss-sub1-hover.png);
 }
 /* line 68, ../../src/sass/partial/_header.sass */
+.header .nav > .item2 ul .sub2, .header .owl-menu > .item2 ul .sub2 {
+  background: url(../img/header/submenu/boss-sub2.png);
+}
+/* line 40, ../../src/sass/partial/_header.sass */
+.header .nav > .item2 ul .sub2:hover, .header .owl-menu > .item2 ul .sub2:hover {
+  background: url(../img/header/submenu/boss-sub2-hover.png);
+}
+/* line 70, ../../src/sass/partial/_header.sass */
+.header .nav > .item2 ul .sub3, .header .owl-menu > .item2 ul .sub3 {
+  background: url(../img/header/submenu/boss-sub3.png);
+}
+/* line 40, ../../src/sass/partial/_header.sass */
+.header .nav > .item2 ul .sub3:hover, .header .owl-menu > .item2 ul .sub3:hover {
+  background: url(../img/header/submenu/boss-sub3-hover.png);
+}
+/* line 72, ../../src/sass/partial/_header.sass */
 .header .nav > .item3, .header .owl-menu > .item3 {
-  width: 98px;
-  background: url(../img/header/charity.png);
-}
-/* line 71, ../../src/sass/partial/_header.sass */
-.header .nav > .item3:hover, .header .owl-menu > .item3:hover {
-  background: url(../img/header/charity-hover.png);
-}
-/* line 73, ../../src/sass/partial/_header.sass */
-.header .nav > .item3 a, .header .owl-menu > .item3 a {
-  width: 98px;
+  width: 96px;
+  background: url(../img/header/life.png);
 }
 /* line 75, ../../src/sass/partial/_header.sass */
+.header .nav > .item3:hover, .header .owl-menu > .item3:hover {
+  background: url(../img/header/life-hover.png);
+}
+/* line 77, ../../src/sass/partial/_header.sass */
+.header .nav > .item3 a, .header .owl-menu > .item3 a {
+  width: 96px;
+}
+/* line 79, ../../src/sass/partial/_header.sass */
 .header .nav > .item3 ul, .header .owl-menu > .item3 ul {
   left: -20px;
 }
-/* line 77, ../../src/sass/partial/_header.sass */
+/* line 81, ../../src/sass/partial/_header.sass */
 .header .nav > .item3 ul .sub1, .header .owl-menu > .item3 ul .sub1 {
-  background: url(../img/header/submenu/charity-sub1.png);
+  background: url(../img/header/submenu/life-sub1.png);
 }
 /* line 40, ../../src/sass/partial/_header.sass */
 .header .nav > .item3 ul .sub1:hover, .header .owl-menu > .item3 ul .sub1:hover {
+  background: url(../img/header/submenu/life-sub1-hover.png);
+}
+/* line 83, ../../src/sass/partial/_header.sass */
+.header .nav > .item4, .header .owl-menu > .item4 {
+  width: 98px;
+  background: url(../img/header/charity.png);
+}
+/* line 86, ../../src/sass/partial/_header.sass */
+.header .nav > .item4:hover, .header .owl-menu > .item4:hover {
+  background: url(../img/header/charity-hover.png);
+}
+/* line 88, ../../src/sass/partial/_header.sass */
+.header .nav > .item4 a, .header .owl-menu > .item4 a {
+  width: 98px;
+}
+/* line 90, ../../src/sass/partial/_header.sass */
+.header .nav > .item4 ul, .header .owl-menu > .item4 ul {
+  left: -20px;
+}
+/* line 92, ../../src/sass/partial/_header.sass */
+.header .nav > .item4 ul .sub1, .header .owl-menu > .item4 ul .sub1 {
+  background: url(../img/header/submenu/charity-sub1.png);
+}
+/* line 40, ../../src/sass/partial/_header.sass */
+.header .nav > .item4 ul .sub1:hover, .header .owl-menu > .item4 ul .sub1:hover {
   background: url(../img/header/submenu/charity-sub1-hover.png);
 }
-/* line 79, ../../src/sass/partial/_header.sass */
-.header .nav > .item3 ul .sub2, .header .owl-menu > .item3 ul .sub2 {
+/* line 94, ../../src/sass/partial/_header.sass */
+.header .nav > .item4 ul .sub2, .header .owl-menu > .item4 ul .sub2 {
   background: url(../img/header/submenu/charity-sub2.png);
 }
 /* line 40, ../../src/sass/partial/_header.sass */
-.header .nav > .item3 ul .sub2:hover, .header .owl-menu > .item3 ul .sub2:hover {
+.header .nav > .item4 ul .sub2:hover, .header .owl-menu > .item4 ul .sub2:hover {
   background: url(../img/header/submenu/charity-sub2-hover.png);
 }
-/* line 81, ../../src/sass/partial/_header.sass */
-.header .nav > .item4, .header .owl-menu > .item4 {
+/* line 96, ../../src/sass/partial/_header.sass */
+.header .nav > .item5, .header .owl-menu > .item5 {
   width: 75px;
   background: url(../img/header/home.png);
 }
-/* line 84, ../../src/sass/partial/_header.sass */
-.header .nav > .item4:hover, .header .owl-menu > .item4:hover {
+/* line 99, ../../src/sass/partial/_header.sass */
+.header .nav > .item5:hover, .header .owl-menu > .item5:hover {
   background: url(../img/header/home-hover.png);
 }
-/* line 86, ../../src/sass/partial/_header.sass */
-.header .nav > .item4 a, .header .owl-menu > .item4 a {
+/* line 101, ../../src/sass/partial/_header.sass */
+.header .nav > .item5 a, .header .owl-menu > .item5 a {
   width: 75px;
 }
-/* line 89, ../../src/sass/partial/_header.sass */
+/* line 104, ../../src/sass/partial/_header.sass */
 .header .owl-menu {
   height: 8px;
   top: 70px;
 }
-/* line 94, ../../src/sass/partial/_header.sass */
+/* line 109, ../../src/sass/partial/_header.sass */
 .header .owl-menu .active {
   background: url(../img/header/slider-bg.png) center no-repeat;
 }
-/* line 96, ../../src/sass/partial/_header.sass */
-.header .owl-menu .page1, .header .owl-menu .page2, .header .owl-menu .page3, .header .owl-menu .page4 {
+/* line 111, ../../src/sass/partial/_header.sass */
+.header .owl-menu .page1, .header .owl-menu .page2, .header .owl-menu .page3, .header .owl-menu .page4, .header .owl-menu .page5 {
   height: 8px;
   float: left;
   position: relative;
 }
-/* line 101, ../../src/sass/partial/_header.sass */
+/* line 116, ../../src/sass/partial/_header.sass */
 .header .owl-menu .page1 {
   width: 75px;
-  left: 461px;
+  left: 584px;
 }
-/* line 104, ../../src/sass/partial/_header.sass */
+/* line 119, ../../src/sass/partial/_header.sass */
 .header .owl-menu .page2 {
-  width: 155px;
+  width: 87px;
   left: -59px;
 }
-/* line 107, ../../src/sass/partial/_header.sass */
+/* line 122, ../../src/sass/partial/_header.sass */
 .header .owl-menu .page3 {
-  width: 96px;
+  width: 155px;
   left: -28px;
 }
-/* line 110, ../../src/sass/partial/_header.sass */
+/* line 125, ../../src/sass/partial/_header.sass */
 .header .owl-menu .page4 {
-  width: 98px;
-  left: 5px;
+  width: 96px;
+  left: 2px;
 }
-/* line 114, ../../src/sass/partial/_header.sass */
+/* line 128, ../../src/sass/partial/_header.sass */
+.header .owl-menu .page5 {
+  width: 98px;
+  left: 32px;
+}
+/* line 132, ../../src/sass/partial/_header.sass */
 .header .owl-menu .bx-pager-item {
   float: left;
 }
 
-/* line 120, ../../src/sass/partial/_header.sass */
+/* line 138, ../../src/sass/partial/_header.sass */
 .header-boss-article {
   margin: 0 auto;
   width: 980px;
   position: relative;
   z-index: 99;
 }
-/* line 125, ../../src/sass/partial/_header.sass */
+/* line 143, ../../src/sass/partial/_header.sass */
 .header-boss-article .nav, .header-boss-article .header .owl-menu, .header .header-boss-article .owl-menu {
   position: absolute;
   right: 0;
@@ -211,70 +257,83 @@
   height: 40px;
   background: url(../img/header/boss-article-manu/article-manu-bg.png);
 }
-/* line 131, ../../src/sass/partial/_header.sass */
-.header-boss-article .nav .item1, .header-boss-article .header .owl-menu .item1, .header .header-boss-article .owl-menu .item1, .header-boss-article .nav .item2, .header-boss-article .header .owl-menu .item2, .header .header-boss-article .owl-menu .item2, .header-boss-article .nav .item3, .header-boss-article .header .owl-menu .item3, .header .header-boss-article .owl-menu .item3, .header-boss-article .nav .item4, .header-boss-article .header .owl-menu .item4, .header .header-boss-article .owl-menu .item4 {
+/* line 149, ../../src/sass/partial/_header.sass */
+.header-boss-article .nav .item1, .header-boss-article .header .owl-menu .item1, .header .header-boss-article .owl-menu .item1, .header-boss-article .nav .item2, .header-boss-article .header .owl-menu .item2, .header .header-boss-article .owl-menu .item2, .header-boss-article .nav .item3, .header-boss-article .header .owl-menu .item3, .header .header-boss-article .owl-menu .item3, .header-boss-article .nav .item4, .header-boss-article .header .owl-menu .item4, .header .header-boss-article .owl-menu .item4, .header-boss-article .nav .item5, .header-boss-article .header .owl-menu .item5, .header .header-boss-article .owl-menu .item5 {
   display: block;
   float: left;
   height: 40px;
   margin: 0 6px;
   background-image: url(../img/header/boss-article-manu/line.png);
 }
-/* line 137, ../../src/sass/partial/_header.sass */
-.header-boss-article .nav .item1 a, .header-boss-article .header .owl-menu .item1 a, .header .header-boss-article .owl-menu .item1 a, .header-boss-article .nav .item2 a, .header-boss-article .header .owl-menu .item2 a, .header .header-boss-article .owl-menu .item2 a, .header-boss-article .nav .item3 a, .header-boss-article .header .owl-menu .item3 a, .header .header-boss-article .owl-menu .item3 a, .header-boss-article .nav .item4 a, .header-boss-article .header .owl-menu .item4 a, .header .header-boss-article .owl-menu .item4 a {
+/* line 155, ../../src/sass/partial/_header.sass */
+.header-boss-article .nav .item1 a, .header-boss-article .header .owl-menu .item1 a, .header .header-boss-article .owl-menu .item1 a, .header-boss-article .nav .item2 a, .header-boss-article .header .owl-menu .item2 a, .header .header-boss-article .owl-menu .item2 a, .header-boss-article .nav .item3 a, .header-boss-article .header .owl-menu .item3 a, .header .header-boss-article .owl-menu .item3 a, .header-boss-article .nav .item4 a, .header-boss-article .header .owl-menu .item4 a, .header .header-boss-article .owl-menu .item4 a, .header-boss-article .nav .item5 a, .header-boss-article .header .owl-menu .item5 a, .header .header-boss-article .owl-menu .item5 a {
   display: block;
   height: 40px;
 }
-/* line 145, ../../src/sass/partial/_header.sass */
+/* line 163, ../../src/sass/partial/_header.sass */
 .header-boss-article .nav .item1, .header-boss-article .header .owl-menu .item1, .header .header-boss-article .owl-menu .item1 {
-  width: 138px;
-  margin-left: 217px;
-  background: url(../img/header/boss-article-manu/boss.png);
+  width: 89px;
+  margin-left: 115px;
+  background: url(../img/header/boss-article-manu/warm.png);
 }
-/* line 149, ../../src/sass/partial/_header.sass */
+/* line 167, ../../src/sass/partial/_header.sass */
 .header-boss-article .nav .item1:hover, .header-boss-article .header .owl-menu .item1:hover, .header .header-boss-article .owl-menu .item1:hover {
-  background: url(../img/header/boss-article-manu/boss-hover.png);
+  background: url(../img/header/boss-article-manu/warm-hover.png);
 }
-/* line 151, ../../src/sass/partial/_header.sass */
+/* line 169, ../../src/sass/partial/_header.sass */
 .header-boss-article .nav .item1 a, .header-boss-article .header .owl-menu .item1 a, .header .header-boss-article .owl-menu .item1 a {
   width: 138px;
 }
-/* line 153, ../../src/sass/partial/_header.sass */
+/* line 171, ../../src/sass/partial/_header.sass */
 .header-boss-article .nav .item2, .header-boss-article .header .owl-menu .item2, .header .header-boss-article .owl-menu .item2 {
+  width: 138px;
+  background: url(../img/header/boss-article-manu/boss.png);
+}
+/* line 174, ../../src/sass/partial/_header.sass */
+.header-boss-article .nav .item2:hover, .header-boss-article .header .owl-menu .item2:hover, .header .header-boss-article .owl-menu .item2:hover {
+  background: url(../img/header/boss-article-manu/boss-hover.png);
+}
+/* line 176, ../../src/sass/partial/_header.sass */
+.header-boss-article .nav .item2 a, .header-boss-article .header .owl-menu .item2 a, .header .header-boss-article .owl-menu .item2 a {
+  width: 138px;
+}
+/* line 178, ../../src/sass/partial/_header.sass */
+.header-boss-article .nav .item3, .header-boss-article .header .owl-menu .item3, .header .header-boss-article .owl-menu .item3 {
   width: 90px;
   background: url(../img/header/boss-article-manu/life.png);
 }
-/* line 156, ../../src/sass/partial/_header.sass */
-.header-boss-article .nav .item2:hover, .header-boss-article .header .owl-menu .item2:hover, .header .header-boss-article .owl-menu .item2:hover {
+/* line 181, ../../src/sass/partial/_header.sass */
+.header-boss-article .nav .item3:hover, .header-boss-article .header .owl-menu .item3:hover, .header .header-boss-article .owl-menu .item3:hover {
   background: url(../img/header/boss-article-manu/life-hover.png);
 }
-/* line 158, ../../src/sass/partial/_header.sass */
-.header-boss-article .nav .item2 a, .header-boss-article .header .owl-menu .item2 a, .header .header-boss-article .owl-menu .item2 a {
-  width: 90px;
-}
-/* line 160, ../../src/sass/partial/_header.sass */
-.header-boss-article .nav .item3, .header-boss-article .header .owl-menu .item3, .header .header-boss-article .owl-menu .item3 {
-  width: 90px;
-  background: url(../img/header/boss-article-manu/charity.png);
-}
-/* line 163, ../../src/sass/partial/_header.sass */
-.header-boss-article .nav .item3:hover, .header-boss-article .header .owl-menu .item3:hover, .header .header-boss-article .owl-menu .item3:hover {
-  background: url(../img/header/boss-article-manu/charity-hover.png);
-}
-/* line 165, ../../src/sass/partial/_header.sass */
+/* line 183, ../../src/sass/partial/_header.sass */
 .header-boss-article .nav .item3 a, .header-boss-article .header .owl-menu .item3 a, .header .header-boss-article .owl-menu .item3 a {
   width: 90px;
 }
-/* line 167, ../../src/sass/partial/_header.sass */
+/* line 185, ../../src/sass/partial/_header.sass */
 .header-boss-article .nav .item4, .header-boss-article .header .owl-menu .item4, .header .header-boss-article .owl-menu .item4 {
+  width: 90px;
+  background: url(../img/header/boss-article-manu/charity.png);
+}
+/* line 188, ../../src/sass/partial/_header.sass */
+.header-boss-article .nav .item4:hover, .header-boss-article .header .owl-menu .item4:hover, .header .header-boss-article .owl-menu .item4:hover {
+  background: url(../img/header/boss-article-manu/charity-hover.png);
+}
+/* line 190, ../../src/sass/partial/_header.sass */
+.header-boss-article .nav .item4 a, .header-boss-article .header .owl-menu .item4 a, .header .header-boss-article .owl-menu .item4 a {
+  width: 90px;
+}
+/* line 192, ../../src/sass/partial/_header.sass */
+.header-boss-article .nav .item5, .header-boss-article .header .owl-menu .item5, .header .header-boss-article .owl-menu .item5 {
   width: 90px;
   background: url(../img/header/boss-article-manu/home.png);
 }
-/* line 170, ../../src/sass/partial/_header.sass */
-.header-boss-article .nav .item4:hover, .header-boss-article .header .owl-menu .item4:hover, .header .header-boss-article .owl-menu .item4:hover {
+/* line 195, ../../src/sass/partial/_header.sass */
+.header-boss-article .nav .item5:hover, .header-boss-article .header .owl-menu .item5:hover, .header .header-boss-article .owl-menu .item5:hover {
   background: url(../img/header/boss-article-manu/home-hover.png);
 }
-/* line 172, ../../src/sass/partial/_header.sass */
-.header-boss-article .nav .item4 a, .header-boss-article .header .owl-menu .item4 a, .header .header-boss-article .owl-menu .item4 a {
+/* line 197, ../../src/sass/partial/_header.sass */
+.header-boss-article .nav .item5 a, .header-boss-article .header .owl-menu .item5 a, .header .header-boss-article .owl-menu .item5 a {
   width: 90px;
 }
 
@@ -821,14 +880,14 @@ a {
   background: url(../img/content/boss-article/activity-big-btn-hover.png);
 }
 /* line 169, ../../src/sass/style.sass */
-.content .bossbig-btn {
+.content .bossbig-text-btn {
   width: 241px;
   height: 45px;
-  background: url(../img/content/boss-article/boss-activity/bossbig-btn.png);
+  background: url(../img/content/boss-article/boss-activity/bossbig-text-btn.png);
 }
 /* line 165, ../../src/sass/style.sass */
-.content .bossbig-btn:hover {
-  background: url(../img/content/boss-article/boss-activity/bossbig-btn-hover.png);
+.content .bossbig-text-btn:hover {
+  background: url(../img/content/boss-article/boss-activity/bossbig-text-btn-hover.png);
 }
 /* line 171, ../../src/sass/style.sass */
 .content .activity-vedio-btn {
@@ -841,7 +900,7 @@ a {
   background: url(../img/content/boss-article/boss-activity/vedio-btn-hover.png);
 }
 /* line 173, ../../src/sass/style.sass */
-.content .activity-vedio-btn, .content .bossbig-btn, .content .activity-big-btn {
+.content .activity-vedio-btn, .content .bossbig-text-btn, .content .activity-big-btn {
   margin-left: 15px;
   float: left;
 }
