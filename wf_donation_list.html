@@ -317,10 +317,12 @@ function show_item(){
             border: '0px'
         } 
     }); 
+    $("body").css('overflow','hidden');
 }
 
 function close_list_popup(){
     $.unblockUI();
+     $("body").css('overflow','scroll');
 }
 
 set_title_tip();
