@@ -75,7 +75,7 @@
             </div>
         </div>
         <div class="wf-donation-content">
-            <div class="wf-donation-content-left">
+            <div class="wf-donation-content-left map-height">
                 <img src="img/content/warm_future/wf-map-bg.png" height="621" width="445" alt="">
                 <div id="flashContent">
                     <object type="application/x-shockwave-flash" data="flash/index.swf" width="550" height="640" id="index" style="float: none; vertical-align:middle">
@@ -173,19 +173,7 @@
     set_title_tip();
     </script>
     <script type="text/javascript" src="js/app/headerReplace.js"></script>
-    <script type="text/javascript">
-    function cut() {
-        var str = window.location.href.toString();
-        var num = str.indexOf('znum=') + 5;
-        var va = str.substr(num, str.length);
-        alert(va);
-    }
-
-    function callMap(num) {
-        alert(num);
-        location.href = "index.html?znum=" + num;
-    }
-    </script>
+    <script type="text/javascript" src="js/flash.js"></script>
 </body>
 
 </html>
