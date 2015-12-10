@@ -1,4 +1,4 @@
-(function(i, s, o, g, r, a, m) {
+/*(function(i, s, o, g, r, a, m) {
 i['GoogleAnalyticsObject'] = r;
 i[r] = i[r] || function() {
     (i[r].q = i[r].q || []).push(arguments)
@@ -12,7 +12,7 @@ m.parentNode.insertBefore(a, m)}
 ga('create', 'UA-68101481-1', 'auto');
 ga('require', 'displayfeatures');
 ga('require', 'linkid', 'linkid.js');
-ga('send', 'pageview');
+ga('send', 'pageview');*/
 
 function set_title_tip(){
     $('.tooltips').powerTip({followMouse: true});
