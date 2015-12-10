@@ -210,6 +210,10 @@ body
     left: -15px;
 }
 
+.map-height{
+    height: 610px
+}
+
 .wf-donation-content-left >img{
     position: relative;
     z-index: 1;
@@ -1142,13 +1146,13 @@ body
 }
 
 .wf-ii-form-text{
-    padding:10px;
+    /*padding:10px;*/
     background-color:#efefef;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    border:0px;
-    behavior: url(PIE.htc); 
+    /*-webkit-border-radius: 5px;*/
+    /*-moz-border-radius: 5px;*/
+    border-radius: 15px;
+    /*border: 5px;*/
+    behavior: url(../PIE.htc); 
 }
 
 .wf-ii-form-select{
@@ -1159,7 +1163,7 @@ body
     border-radius: 5px;
     border:0px;
     margin-right:10px;
-    behavior: url(PIE.htc); 
+    behavior: url(../PIE.htc); 
 }
 
 .wf-ii-statement{
