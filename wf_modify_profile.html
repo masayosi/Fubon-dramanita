@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<html class="no-js">
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" chrome="1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="description" content=""/>
+<title>info</title>
+<link rel="stylesheet" href="stylesheets/vendor/reset/normalize.css"/>
+<link rel="stylesheet" href="stylesheets/style.css"/>
+<link rel="stylesheet" href="stylesheets/warm_future.css"/>
+<script type="text/javascript" src="js/lib/jquery-1.9.0.min.js"></script>
+<link rel="stylesheet" href="stylesheets/vendor/jquery.bxslider.css"/>
+<script type="text/javascript" src="js/plugin/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="js/wf_global.js"></script>
+</head>
+<body>
+<div class="header"><a href="index.html"><img src="img/header/logo.png" height="32" width="149" class="logo"/></a>
+    <ul class="nav">
+        <li class="item1"><a href="bossindex.html"></a> </li>
+        <li class="item2"><a href="life.html"></a>
+            <ul>
+                <a href="life-learn.html">
+                <li class="sub1"></li>
+                </a>
+            </ul>
+        </li>
+        <li class="item3"><a href="charity.html"></a>
+            <ul>
+                <a href="charity-volunteer-orign.html">
+                <li class="sub1"></li>
+                </a><a href="charity-about.html">
+                <li class="sub2"></li>
+                </a>
+            </ul>
+        </li>
+        <li class="item4"><a href="index.html"></a></li>
+    </ul>
+    <div class="owl-menu">
+        <div class="page1"></div>
+        <div class="page2"></div>
+        <div class="page3"></div>
+        <div class="page4"></div>
+    </div>
+</div>
+<div class="content">
+    <div class="wf-donation-list-header">
+        <div class="wf-modify-profile-title"></div>
+    </div>
+    <div class="wf-donation-content">
+        <form>
+            <div class="wf-donation-list-title"><img src="img/content/warm_future/wf_mp_title_01.png" width="792" height="155" /></div>
+            <div class="wf-ii-input">
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td class="wf-ii-table-td-01">姓名&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;王小明</td>
+                    </tr>
+                    <tr>
+                        <td class="wf-ii-table-td-01">聯絡手機&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="text" class="wf-ii-form-text" placeholder="輸入手機號碼"></td>
+                    </tr>
+                    <tr>
+                        <td class="wf-ii-table-td-02">聯絡地址&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td class="wf-ii-table-td-03">&nbsp;&nbsp;&nbsp;&nbsp;
+                            <select class="wf-ii-form-select">
+                                <option>台北市</option>
+                            </select>
+                            <select class="wf-ii-form-select">
+                                <option>中正區</option>
+                            </select>
+                            <input type="text" class="wf-ii-form-text" style="width:50px;" placeholder="104">
+                            <br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="text" class="wf-ii-form-text" style="width:400px;" placeholder="請輸入完整地址"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="wf-mp-btn">
+                <a href="#" onClick="show_success_popup()" class="wf-mp-btn01"></a>
+            </div>
+        </form>
+    </div>
+    <div class="footer">
+        <div class="footer-bottom"></div>
+    </div>
+</div>
+<div class="wf-mp-success-popup">
+    <div class="wf-mp-success-popup-view">
+        <div class="wf-mp-success-popup-close"><a href="#" onclick="close_popup();"><img src="img/content/warm_future/wf-gl-my-close-01.png" width="40" height="40" /></a></div>
+        <div class="wf-mp-success-popup-title-01"><img src="img/content/warm_future/wf_mp_title_02.png" width="706" height="107" /></div>
+        <div class="wf-mp-success-table">
+            <table cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                    <td class="wf-mp-success-td-01">姓名&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td class="wf-mp-success-td-02">&nbsp;&nbsp;&nbsp;&nbsp;王大明</td>
+                </tr>
+                <tr>
+                    <td class="wf-mp-success-td-01">聯絡手機&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td class="wf-mp-success-td-02">&nbsp;&nbsp;&nbsp;&nbsp;0911000123</td>
+                </tr>
+                <tr>
+                    <td class="wf-mp-success-td-01">聯絡地址&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td class="wf-mp-success-td-02">&nbsp;&nbsp;&nbsp;&nbsp;台北市中山區松江路33號
+                </tr>
+            </table>
+        </div>
+        <div class="wf-mp-success-popup-btn"><a href="wf_volunteer_list.html"></a></div>
+    </div>
+</div>
+<link rel="stylesheet" href="stylesheets/vendor/jquery.powertip-light.css"/>
+<script src="js/plugin/jquery.blockUI.js"></script>
+<script src="js/plugin/jquery.powertip.min.js"></script> 
+<script type="text/javascript">
+    function show_success_popup(){
+        var _width = $(window).width();
+        var _height = $(window).height();
+        
+        if(_height >= 440){
+            _height = 440;
+            _width = 835;
+            $('.wf-mp-success-popup').css('height',_height + 'px').css('width',_width + 'px');       
+        } else {
+            _width = 855;
+            $('.wf-mp-success-popup').css('height',_height + 'px').css('width',_width + 'px');  
+        }
+        
+        var _top = $(window).height() - _height;
+        var _left = $(window).width() - _width;
+        
+        _top = (_top > 0) ? _top / 2 : 0;
+        _left = (_left > 0) ? _left / 2 : 0;
+        $.blockUI({ 
+            message: $('.wf-mp-success-popup'), 
+            css: { 
+                top:  _top + 'px', 
+                left: _left + 'px', 
+                width: _width + 'px',
+                height: _height + 'px',
+                border: '0px'
+            } 
+        }); 
+        $("body").css('overflow','hidden');
+    }
+   
+    function close_popup(){
+        $.unblockUI();
+        $("body").css('overflow','scroll');
+    }
+</script>
+<script type="text/javascript" src="js/app/headerReplace.js"></script>
+</body>
+</html>

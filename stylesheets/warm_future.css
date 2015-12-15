@@ -2035,3 +2035,149 @@ body
      margin-right:40px;
 }
  
+.wf-love-donation-title{
+     width:456px; 
+    height:58px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:url(../img/content/warm_future/wf_ld_unit_01.png) no-repeat;     
+}
+
+.wf-love-donation-explanation{
+    width:793px;
+    height:346px;
+    position:relative;
+    background:url(../img/content/warm_future/wf_ld_title_01.png) no-repeat;
+    margin:auto;
+}
+
+.wf-love-donation-explanation a{
+    display:block;
+    width:176px;
+    height:40px;
+    position:absolute;
+    background:url(../img/content/warm_future/wf_ld_btn_01.png) no-repeat;
+    top:200px;
+    left:308px;
+}
+
+.wf-events—means-title{
+     width:456px; 
+    height:58px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:url(../img/content/warm_future/wf_em_unit_01.png) no-repeat;     
+}
+
+.wf-events—means-contents{
+    width:828px; 
+    height:1955px;
+    background:url(../img/content/warm_future/wf_em_contents.png) no-repeat;
+    margin:auto; 
+}
+
+.wf-events—reason-title{
+     width:456px; 
+    height:58px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:url(../img/content/warm_future/wf_er_unit_01.png) no-repeat;     
+}
+
+.wf-events—reason-contents{
+    width:980px; 
+    height:1027px;
+    background:url(../img/content/warm_future/wf_er_contents.png) no-repeat;
+    margin:auto; 
+}
+
+.wf-modify-profile-title{
+    width:456px; 
+    height:58px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:url(../img/content/warm_future/wf_mp_unit_01.png) no-repeat;  
+}
+
+.wf-mp-btn{
+    width:217px;
+    height:40px;
+    margin:auto;
+    margin-top:30px;
+}
+
+.wf-mp-btn01{
+    display:block;
+    background:url(../img/content/warm_future/wf_mp_btn_01.png) no-repeat;
+    width:217px;
+    height:40px;
+}
+
+.wf-mp-success-popup{
+    display:none;
+    width:835px;
+    height:440px;
+    background-color:#f9f2e6;
+    overflow-y:auto;
+}
+
+.wf-mp-success-popup-view{
+    width:835px;
+    height:440px;
+    position:relative;
+}
+
+.wf-mp-success-popup-close{
+    position:absolute;
+    width:40px;
+    height:40px;
+    top:10px;
+    left:780px;
+}
+
+.wf-mp-success-popup-title-01{
+    width:706px;
+    height:107px;
+    margin:auto;
+    padding-top:40px;
+}
+
+.wf-mp-success-table{
+    width:701px;
+    height:156px;
+    margin:auto;
+    margin-top:30px;
+    margin-bottom:30px;
+    background:url(../img/content/warm_future/wf_mp_frame_01.png) no-repeat;
+}
+
+.wf-mp-success-td-01{
+    width:157px;
+    height:52px;
+    line-height:52px;
+    text-align:right;
+    color:#0d5672;
+    font-weight:bold;
+}
+
+.wf-mp-success-td-02{
+    line-height:52px;
+    text-align:left;
+}
+
+.wf-mp-success-popup-btn{
+    width:176px;
+    height:40px;
+    margin:auto;
+}
+
+.wf-mp-success-popup-btn a{
+    display:block;
+    background:url(../img/content/warm_future/wf_ld_btn_01.png) no-repeat;
+    width:176px;
+    height:40px;
+}
