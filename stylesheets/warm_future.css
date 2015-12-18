@@ -1146,21 +1146,21 @@ body
 }
 
 .wf-ii-form-text{
-    /*padding:10px;*/
+    padding:10px;
     background-color:#efefef;
-    /*-webkit-border-radius: 5px;*/
-    /*-moz-border-radius: 5px;*/
-    border-radius: 15px;
-    /*border: 5px;*/
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border:0px;
     behavior: url(../PIE.htc); 
 }
 
 .wf-ii-form-select{
     padding:10px;
     background-color:#efefef;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
     border:0px;
     margin-right:10px;
     behavior: url(../PIE.htc); 
@@ -1413,9 +1413,21 @@ body
     text-align:center;
 }
 
+.wf-qt-td-width-02 span{
+    display:block;
+    text-align:left;
+    margin-left:7px;
+}
+
 .wf-qt-td-width-03{
     width:217px;
     text-align:center;
+}
+
+.wf-qt-td-width-03 span{
+    display:block;
+    text-align:left;
+    margin-left:10px;
 }
 
 .wf-qt-td-width-04{
@@ -1431,6 +1443,12 @@ body
 .wf-qt-td-width-06{
     width:168px;
     text-align:center;
+}
+
+.wf-qt-td-width-06 span{
+    display:block;
+    text-align:left;
+    margin-left:10px;
 }
 
 .wf-qt-oops{
@@ -1510,6 +1528,8 @@ body
     text-decoration:underline;
     line-height:25px;
     color:#000;
+    text-align:left;
+    margin-left:7px;
 }
 
 .wf-vl-td-width-03{
@@ -1520,6 +1540,8 @@ body
 .wf-vl-td-width-03 span{
     display:block;
     line-height:25px;
+    text-align:left;
+    margin-left:9px;
 }
 
 .wf-vl-td-width-04{
