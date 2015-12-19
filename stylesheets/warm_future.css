@@ -88,7 +88,7 @@ body
     height:171px;
 }
 
-.wf-donation-drift-btn-02{
+.wf-donation-drift-btn-02, .wf-donation-drift-btn-03{
     margin-top:30px;
 }
 
@@ -607,23 +607,28 @@ body
 }
 
 .gl-popup-td-width-01{
-    width:94px;
+    width:59px;
+}
+
+.gl-popup-td-width-01 a{
+    color: #000000;
+    text-decoration: underline;
 }
 
 .gl-popup-td-width-02{
-    width:105px;
+    width:72px;
 }
 
 .gl-popup-td-width-03{
-    width:86px;
+    width:88px;
 }
 
 .gl-popup-td-width-04{
-    width:73px;
+    width:68px;
 }
 
 .gl-popup-td-width-05{
-    width:108px;
+    width:74px;
 }
 
 .gl-popup-td-width-06{
@@ -631,7 +636,11 @@ body
 }
 
 .gl-popup-td-width-07{
-    width:122px;
+    width:110px;
+}
+
+.gl-popup-td-width-08{
+    width:125px;
 }
 
 .wf-donation-item-title{
@@ -2080,7 +2089,7 @@ body
     height:40px;
     position:absolute;
     background:url(../img/content/warm_future/wf_ld_btn_01.png) no-repeat;
-    top:200px;
+    top:215px;
     left:308px;
 }
 

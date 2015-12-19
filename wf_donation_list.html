@@ -1,351 +1,443 @@
 <!DOCTYPE HTML>
 <html class="no-js">
+
 <head>
-<meta charset="utf-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" chrome="1"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<meta name="description" content=""/>
-<title>donation list</title>
-<link rel="stylesheet" href="stylesheets/vendor/reset/normalize.css"/>
-<link rel="stylesheet" href="stylesheets/style.css"/>
-<link rel="stylesheet" href="stylesheets/warm_future.css"/>
-<script type="text/javascript" src="js/lib/jquery-1.9.0.min.js"></script>
-<link rel="stylesheet" href="stylesheets/vendor/jquery.bxslider.css"/>
-<script type="text/javascript" src="js/plugin/jquery.bxslider.min.js"></script>
-<script type="text/javascript" src="js/wf_global.js"></script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" chrome="1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <title>donation list</title>
+    <link rel="stylesheet" href="stylesheets/vendor/reset/normalize.css" />
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <link rel="stylesheet" href="stylesheets/warm_future.css" />
+    <script type="text/javascript" src="js/lib/jquery-1.9.0.min.js"></script>
+    <link rel="stylesheet" href="stylesheets/vendor/jquery.bxslider.css" />
+    <script type="text/javascript" src="js/plugin/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="js/wf_global.js"></script>
 </head>
+
 <body>
-<div class="header"><a href="index.html"><img src="img/header/logo.png" height="32" width="149" class="logo"/></a>
-    <ul class="nav">
-        <li class="item1"><a href="bossindex.html"></a> </li>
-        <li class="item2"><a href="life.html"></a>
-            <ul>
-                <a href="life-learn.html">
-                <li class="sub1"></li>
-                </a>
-            </ul>
-        </li>
-        <li class="item3"><a href="charity.html"></a>
-            <ul>
-                <a href="charity-volunteer-orign.html">
-                <li class="sub1"></li>
-                </a><a href="charity-about.html">
-                <li class="sub2"></li>
-                </a>
-            </ul>
-        </li>
-        <li class="item4"><a href="index.html"></a></li>
-    </ul>
-    <div class="owl-menu">
-        <div class="page1"></div>
-        <div class="page2"></div>
-        <div class="page3"></div>
-        <div class="page4"></div>
+    <div class="header">
+        <a href="index.html"><img src="img/header/logo.png" height="32" width="149" class="logo" /></a>
+        <ul class="nav">
+            <li class="item1">
+                <a href="bossindex.html"></a>
+            </li>
+            <li class="item2">
+                <a href="life.html"></a>
+                <ul>
+                    <a href="life-learn.html">
+                        <li class="sub1"></li>
+                    </a>
+                </ul>
+            </li>
+            <li class="item3">
+                <a href="charity.html"></a>
+                <ul>
+                    <a href="charity-volunteer-orign.html">
+                        <li class="sub1"></li>
+                    </a>
+                    <a href="charity-about.html">
+                        <li class="sub2"></li>
+                    </a>
+                </ul>
+            </li>
+            <li class="item4">
+                <a href="index.html"></a>
+            </li>
+        </ul>
+        <div class="owl-menu">
+            <div class="page1"></div>
+            <div class="page2"></div>
+            <div class="page3"></div>
+            <div class="page4"></div>
+        </div>
     </div>
-</div>
-<div class="content">
-    <div class="wf-donation-drift-btn">
-        <div class="wf-donation-drift-btn-01"><a><img src="img/content/warm_future/wf_gs_btn_02.png" width="39" height="171" /></a></div>
-        <div class="wf-donation-drift-btn-02"><a><img src="img/content/warm_future/wf_gs_btn_01.png" width="39" height="171" /></a></div>
-    </div>
-    <div class="wf-donation-list-header">
-        <div class="wf-donation-header-title"></div>
-    </div>
-    <div class="wf-donation-content">
-        <div class="wf-donation-list-title"> <img src="img/content/warm_future/wf_gl_title_01.png" width="793" height="135" /> </div>
-        <div class="wf-donation-list-table">
-            <div class="wf-donation-list-table-title">台北市</div>
-            <div class="wf-donation-list-table-btn01"><a href="#" onClick="show_item()"></a></div>
-            <div class="wf-donation-list-table-btn02"><a href="#" onClick="history.back()"></a></div>
-            <div class="wf-donation-list-table-th">
-                <table cellpadding="0" cellspacing="0" border="0" class="list-table">
-                    <tr>
-                        <td class="gl-td-width-01">品項</td>
-                        <td class="gl-td-width-02">尺吋</td>
-                        <td class="gl-td-width-03">學生姓名</td>
-                        <td class="gl-td-width-04">顏色</td>
-                        <td class="gl-td-width-05">原因</td>
-                        <td class="gl-td-width-06">加入清單</td>
-                    </tr>
-                </table>
+    <div class="content">
+        <div class="wf-donation-drift-btn">
+            <div class="wf-donation-drift-btn-01">
+                <a href="wf_query_task.html"><img src="img/content/warm_future/wf_gs_btn_02.png" width="39" height="171" /></a>
             </div>
-            <div class="wf-donation-list-table-td">
-                <table cellpadding="0" cellspacing="0" border="0" class="list-table">
-                    <tr>
-                        <td class="gl-td-width-01 tooltips" data-powertip="足球">足球
-                            <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div></td>
-                        <td class="gl-td-width-02 tooltips" data-powertip="-----">-</td>
-                        <td class="gl-td-width-03 tooltips" data-powertip="歐陽泥">歐陽泥
-                            <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div></td>
-                        <td class="gl-td-width-04 tooltips" data-powertip="藍色">藍色
-                            <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div></td>
-                        <td class="gl-td-width-05 tooltips" data-powertip="家中沒有所以家中沒有所以家中沒有所以家中沒有所以"><span>家中沒有所以家中沒有所以家中沒有</span>
-                            <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div></td>
-                        <td class="gl-td-width-06 tooltips"><table cellpadding="0" cellspacing="0" border="0" align="left">
-                                <tr>
-                                    <td><a href="#"><img src="img/content/warm_future/wf_gl_icon_01.png" /></a></td>
-                                    <td>&nbsp;<a href="#" class="gl-link-01">加入</a></td>
-                                </tr>
-                            </table></td>
-                    </tr>
-                    <tr>
-                        <td class="gl-td-width-01">足球</td>
-                        <td class="gl-td-width-02">-</td>
-                        <td class="gl-td-width-03">歐陽泥</td>
-                        <td class="gl-td-width-04">藍色</td>
-                        <td class="gl-td-width-05"><span>家中沒有所以</span></td>
-                        <td class="gl-td-width-06 tooltips"><table cellpadding="0" cellspacing="0" border="0" align="left">
-                                <tr>
-                                    <td><a href="#"><img src="img/content/warm_future/wf_gl_icon_02.png" /></a></td>
-                                    <td>&nbsp;<a href="#" class="gl-link-02">己加入</a></td>
-                                </tr>
-                            </table></td>
-                    </tr>
-                    <tr>
-                        <td class="gl-td-width-01 tooltips" data-powertip="足球">足球
-                            <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div></td>
-                        <td class="gl-td-width-02 tooltips" data-powertip="-----">-</td>
-                        <td class="gl-td-width-03 tooltips" data-powertip="歐陽泥">歐陽泥
-                            <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div></td>
-                        <td class="gl-td-width-04 tooltips" data-powertip="藍色">藍色
-                            <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div></td>
-                        <td class="gl-td-width-05 tooltips" data-powertip="家中沒有所以家中沒有所以家中沒有所以家中沒有所以"><span>家中沒有所以家中沒有所以家中沒有</span>
-                            <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div></td>
-                        <td class="gl-td-width-06 tooltips"><table cellpadding="0" cellspacing="0" border="0" align="left">
-                                <tr>
-                                    <td><a href="#"><img src="img/content/warm_future/wf_gl_icon_01.png" /></a></td>
-                                    <td>&nbsp;<a href="#" class="gl-link-01">加入</a></td>
-                                </tr>
-                            </table></td>
-                    </tr>
-                    <tr>
-                        <td class="gl-td-width-01">足球</td>
-                        <td class="gl-td-width-02">-</td>
-                        <td class="gl-td-width-03">歐陽泥</td>
-                        <td class="gl-td-width-04">藍色</td>
-                        <td class="gl-td-width-05"><span>家中沒有所以</span></td>
-                        <td class="gl-td-width-06 tooltips"><table cellpadding="0" cellspacing="0" border="0" align="left">
-                                <tr>
-                                    <td><a href="#"><img src="img/content/warm_future/wf_gl_icon_02.png" /></a></td>
-                                    <td>&nbsp;<a href="#" class="gl-link-02">己加入</a></td>
-                                </tr>
-                            </table></td>
-                    </tr>
-                    <tr>
-                        <td class="gl-td-width-01 tooltips" data-powertip="足球">足球
-                            <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div></td>
-                        <td class="gl-td-width-02 tooltips" data-powertip="-----">-</td>
-                        <td class="gl-td-width-03 tooltips" data-powertip="歐陽泥">歐陽泥
-                            <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div></td>
-                        <td class="gl-td-width-04 tooltips" data-powertip="藍色">藍色
-                            <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div></td>
-                        <td class="gl-td-width-05 tooltips" data-powertip="家中沒有所以家中沒有所以家中沒有所以家中沒有所以"><span>家中沒有所以家中沒有所以家中沒有</span>
-                            <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div></td>
-                        <td class="gl-td-width-06 tooltips"><table cellpadding="0" cellspacing="0" border="0" align="left">
-                                <tr>
-                                    <td><a href="#"><img src="img/content/warm_future/wf_gl_icon_01.png" /></a></td>
-                                    <td>&nbsp;<a href="#" class="gl-link-01">加入</a></td>
-                                </tr>
-                            </table></td>
-                    </tr>
-                    <tr>
-                        <td class="gl-td-width-01">足球</td>
-                        <td class="gl-td-width-02">-</td>
-                        <td class="gl-td-width-03">歐陽泥</td>
-                        <td class="gl-td-width-04">藍色</td>
-                        <td class="gl-td-width-05"><span>家中沒有所以</span></td>
-                        <td class="gl-td-width-06 tooltips"><table cellpadding="0" cellspacing="0" border="0" align="left">
-                                <tr>
-                                    <td><a href="#"><img src="img/content/warm_future/wf_gl_icon_02.png" /></a></td>
-                                    <td>&nbsp;<a href="#" class="gl-link-02">己加入</a></td>
-                                </tr>
-                            </table></td>
-                    </tr>
-                    <tr>
-                        <td class="gl-td-width-01 tooltips" data-powertip="足球">足球
-                            <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div></td>
-                        <td class="gl-td-width-02 tooltips" data-powertip="-----">-</td>
-                        <td class="gl-td-width-03 tooltips" data-powertip="歐陽泥">歐陽泥
-                            <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div></td>
-                        <td class="gl-td-width-04 tooltips" data-powertip="藍色">藍色
-                            <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div></td>
-                        <td class="gl-td-width-05 tooltips" data-powertip="家中沒有所以家中沒有所以家中沒有所以家中沒有所以"><span>家中沒有所以家中沒有所以家中沒有</span>
-                            <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div></td>
-                        <td class="gl-td-width-06"><table cellpadding="0" cellspacing="0" border="0" align="left">
-                                <tr>
-                                    <td><a href="#"><img src="img/content/warm_future/wf_gl_icon_01.png" /></a></td>
-                                    <td>&nbsp;<a href="#" class="gl-link-01">加入</a></td>
-                                </tr>
-                            </table></td>
-                    </tr>
-                    <tr>
-                        <td class="gl-td-width-01">足球</td>
-                        <td class="gl-td-width-02">-</td>
-                        <td class="gl-td-width-03">歐陽泥</td>
-                        <td class="gl-td-width-04">藍色</td>
-                        <td class="gl-td-width-05"><span>家中沒有所以</span></td>
-                        <td class="gl-td-width-06 tooltips"><table cellpadding="0" cellspacing="0" border="0" align="left">
-                                <tr>
-                                    <td><a href="#"><img src="img/content/warm_future/wf_gl_icon_02.png" /></a></td>
-                                    <td>&nbsp;<a href="#" class="gl-link-02">己加入</a></td>
-                                </tr>
-                            </table></td>
-                    </tr>
-                    <tr>
-                        <td class="gl-td-width-01 tooltips" data-powertip="足球">足球
-                            <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div></td>
-                        <td class="gl-td-width-02 tooltips" data-powertip="-----">-</td>
-                        <td class="gl-td-width-03 tooltips" data-powertip="歐陽泥">歐陽泥
-                            <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div></td>
-                        <td class="gl-td-width-04 tooltips" data-powertip="藍色">藍色
-                            <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div></td>
-                        <td class="gl-td-width-05 tooltips" data-powertip="家中沒有所以家中沒有所以家中沒有所以家中沒有所以"><span>家中沒有所以家中沒有所以家中沒有</span>
-                            <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div></td>
-                        <td class="gl-td-width-06 tooltips"><table cellpadding="0" cellspacing="0" border="0" align="left">
-                                <tr>
-                                    <td><a href="#"><img src="img/content/warm_future/wf_gl_icon_01.png" /></a></td>
-                                    <td>&nbsp;<a href="#" class="gl-link-01">加入</a></td>
-                                </tr>
-                            </table></td>
-                    </tr>
-                    <tr>
-                        <td class="gl-td-width-01">足球</td>
-                        <td class="gl-td-width-02">-</td>
-                        <td class="gl-td-width-03">歐陽泥</td>
-                        <td class="gl-td-width-04">藍色</td>
-                        <td class="gl-td-width-05"><span>家中沒有所以</span></td>
-                        <td class="gl-td-width-06 tooltips"><table cellpadding="0" cellspacing="0" border="0" align="left">
-                                <tr>
-                                    <td><a href="#"><img src="img/content/warm_future/wf_gl_icon_02.png" /></a></td>
-                                    <td>&nbsp;<a href="#" class="gl-link-02">己加入</a></td>
-                                </tr>
-                            </table></td>
-                    </tr>
-                </table>
+            <div class="wf-donation-drift-btn-02">
+                <a href="wf_query_order.html"><img src="img/content/warm_future/wf_gs_btn_01.png" width="39" height="171" /></a>
             </div>
-            <div class="wf-donation-list-paging">
-                <table cellpadding="0" cellspacing="0" border="0" align="center" class="table-paging">
-                    <tr>
-                        <td class="prev"><a href="#">&lt;</a></td>
-                        <td class="page"><a href="#">1</a></td>
-                        <td class="page"><span>2</span></td>
-                        <td class="page"><a href="#">3</a></td>
-                        <td class="page"><a href="#">4</a></td>
-                        <td class="page"><a href="#">5</a></td>
-                        <td class="next"><a href="#">&gt;</a></td>
-                    </tr>
-                </table>
+            <div class="wf-donation-drift-btn-03">
+                <a onclick="show_item()" ><img src="img/content/warm_future/wf_gs_btn_03.png" width="39" height="171" /></a>
+            </div>
+        </div>
+        <div class="wf-donation-list-header">
+            <div class="wf-donation-header-title"></div>
+        </div>
+        <div class="wf-donation-content">
+            <div class="wf-donation-list-title"> <img src="img/content/warm_future/wf_gl_title_01.png" width="793" height="135" /> </div>
+            <div class="wf-donation-list-table">
+                <div class="wf-donation-list-table-title">台北市</div>
+               <!--  <div class="wf-donation-list-table-btn01">
+                    <a href="#" onClick="show_item()"></a>
+                </div> -->
+                <div class="wf-donation-list-table-btn02">
+                    <a href="#" onClick="history.back()"></a>
+                </div>
+                <div class="wf-donation-list-table-th">
+                    <table cellpadding="0" cellspacing="0" border="0" class="list-table">
+                        <tr>
+                            <td class="gl-td-width-01">品項</td>
+                            <td class="gl-td-width-02">尺吋</td>
+                            <td class="gl-td-width-03">學生姓名</td>
+                            <td class="gl-td-width-04">顏色</td>
+                            <td class="gl-td-width-05">原因</td>
+                            <td class="gl-td-width-06">加入清單</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="wf-donation-list-table-td">
+                    <table cellpadding="0" cellspacing="0" border="0" class="list-table">
+                        <tr>
+                            <td class="gl-td-width-01 tooltips" data-powertip="足球">足球
+                                <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div>
+                            </td>
+                            <td class="gl-td-width-02 tooltips" data-powertip="-----">-</td>
+                            <td class="gl-td-width-03 tooltips" data-powertip="歐陽泥">歐陽泥
+                                <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div>
+                            </td>
+                            <td class="gl-td-width-04 tooltips" data-powertip="藍色">藍色
+                                <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div>
+                            </td>
+                            <td class="gl-td-width-05 tooltips" data-powertip="家中沒有所以家中沒有所以家中沒有所以家中沒有所以"><span>家中沒有所以家中沒有所以家中沒有</span>
+                                <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div>
+                            </td>
+                            <td class="gl-td-width-06 tooltips">
+                                <table cellpadding="0" cellspacing="0" border="0" align="left">
+                                    <tr>
+                                        <td>
+                                            <a href="#"><img src="img/content/warm_future/wf_gl_icon_01.png" /></a>
+                                        </td>
+                                        <td>&nbsp;<a href="#" class="gl-link-01">加入</a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="gl-td-width-01">足球</td>
+                            <td class="gl-td-width-02">-</td>
+                            <td class="gl-td-width-03">歐陽泥</td>
+                            <td class="gl-td-width-04">藍色</td>
+                            <td class="gl-td-width-05"><span>家中沒有所以</span></td>
+                            <td class="gl-td-width-06 tooltips">
+                                <table cellpadding="0" cellspacing="0" border="0" align="left">
+                                    <tr>
+                                        <td>
+                                            <a href="#"><img src="img/content/warm_future/wf_gl_icon_02.png" /></a>
+                                        </td>
+                                        <td>&nbsp;<a href="#" class="gl-link-02">己加入</a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="gl-td-width-01 tooltips" data-powertip="足球">足球
+                                <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div>
+                            </td>
+                            <td class="gl-td-width-02 tooltips" data-powertip="-----">-</td>
+                            <td class="gl-td-width-03 tooltips" data-powertip="歐陽泥">歐陽泥
+                                <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div>
+                            </td>
+                            <td class="gl-td-width-04 tooltips" data-powertip="藍色">藍色
+                                <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div>
+                            </td>
+                            <td class="gl-td-width-05 tooltips" data-powertip="家中沒有所以家中沒有所以家中沒有所以家中沒有所以"><span>家中沒有所以家中沒有所以家中沒有</span>
+                                <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div>
+                            </td>
+                            <td class="gl-td-width-06 tooltips">
+                                <table cellpadding="0" cellspacing="0" border="0" align="left">
+                                    <tr>
+                                        <td>
+                                            <a href="#"><img src="img/content/warm_future/wf_gl_icon_01.png" /></a>
+                                        </td>
+                                        <td>&nbsp;<a href="#" class="gl-link-01">加入</a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="gl-td-width-01">足球</td>
+                            <td class="gl-td-width-02">-</td>
+                            <td class="gl-td-width-03">歐陽泥</td>
+                            <td class="gl-td-width-04">藍色</td>
+                            <td class="gl-td-width-05"><span>家中沒有所以</span></td>
+                            <td class="gl-td-width-06 tooltips">
+                                <table cellpadding="0" cellspacing="0" border="0" align="left">
+                                    <tr>
+                                        <td>
+                                            <a href="#"><img src="img/content/warm_future/wf_gl_icon_02.png" /></a>
+                                        </td>
+                                        <td>&nbsp;<a href="#" class="gl-link-02">己加入</a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="gl-td-width-01 tooltips" data-powertip="足球">足球
+                                <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div>
+                            </td>
+                            <td class="gl-td-width-02 tooltips" data-powertip="-----">-</td>
+                            <td class="gl-td-width-03 tooltips" data-powertip="歐陽泥">歐陽泥
+                                <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div>
+                            </td>
+                            <td class="gl-td-width-04 tooltips" data-powertip="藍色">藍色
+                                <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div>
+                            </td>
+                            <td class="gl-td-width-05 tooltips" data-powertip="家中沒有所以家中沒有所以家中沒有所以家中沒有所以"><span>家中沒有所以家中沒有所以家中沒有</span>
+                                <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div>
+                            </td>
+                            <td class="gl-td-width-06 tooltips">
+                                <table cellpadding="0" cellspacing="0" border="0" align="left">
+                                    <tr>
+                                        <td>
+                                            <a href="#"><img src="img/content/warm_future/wf_gl_icon_01.png" /></a>
+                                        </td>
+                                        <td>&nbsp;<a href="#" class="gl-link-01">加入</a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="gl-td-width-01">足球</td>
+                            <td class="gl-td-width-02">-</td>
+                            <td class="gl-td-width-03">歐陽泥</td>
+                            <td class="gl-td-width-04">藍色</td>
+                            <td class="gl-td-width-05"><span>家中沒有所以</span></td>
+                            <td class="gl-td-width-06 tooltips">
+                                <table cellpadding="0" cellspacing="0" border="0" align="left">
+                                    <tr>
+                                        <td>
+                                            <a href="#"><img src="img/content/warm_future/wf_gl_icon_02.png" /></a>
+                                        </td>
+                                        <td>&nbsp;<a href="#" class="gl-link-02">己加入</a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="gl-td-width-01 tooltips" data-powertip="足球">足球
+                                <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div>
+                            </td>
+                            <td class="gl-td-width-02 tooltips" data-powertip="-----">-</td>
+                            <td class="gl-td-width-03 tooltips" data-powertip="歐陽泥">歐陽泥
+                                <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div>
+                            </td>
+                            <td class="gl-td-width-04 tooltips" data-powertip="藍色">藍色
+                                <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div>
+                            </td>
+                            <td class="gl-td-width-05 tooltips" data-powertip="家中沒有所以家中沒有所以家中沒有所以家中沒有所以"><span>家中沒有所以家中沒有所以家中沒有</span>
+                                <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div>
+                            </td>
+                            <td class="gl-td-width-06">
+                                <table cellpadding="0" cellspacing="0" border="0" align="left">
+                                    <tr>
+                                        <td>
+                                            <a href="#"><img src="img/content/warm_future/wf_gl_icon_01.png" /></a>
+                                        </td>
+                                        <td>&nbsp;<a href="#" class="gl-link-01">加入</a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="gl-td-width-01">足球</td>
+                            <td class="gl-td-width-02">-</td>
+                            <td class="gl-td-width-03">歐陽泥</td>
+                            <td class="gl-td-width-04">藍色</td>
+                            <td class="gl-td-width-05"><span>家中沒有所以</span></td>
+                            <td class="gl-td-width-06 tooltips">
+                                <table cellpadding="0" cellspacing="0" border="0" align="left">
+                                    <tr>
+                                        <td>
+                                            <a href="#"><img src="img/content/warm_future/wf_gl_icon_02.png" /></a>
+                                        </td>
+                                        <td>&nbsp;<a href="#" class="gl-link-02">己加入</a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="gl-td-width-01 tooltips" data-powertip="足球">足球
+                                <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div>
+                            </td>
+                            <td class="gl-td-width-02 tooltips" data-powertip="-----">-</td>
+                            <td class="gl-td-width-03 tooltips" data-powertip="歐陽泥">歐陽泥
+                                <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div>
+                            </td>
+                            <td class="gl-td-width-04 tooltips" data-powertip="藍色">藍色
+                                <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div>
+                            </td>
+                            <td class="gl-td-width-05 tooltips" data-powertip="家中沒有所以家中沒有所以家中沒有所以家中沒有所以"><span>家中沒有所以家中沒有所以家中沒有</span>
+                                <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div>
+                            </td>
+                            <td class="gl-td-width-06 tooltips">
+                                <table cellpadding="0" cellspacing="0" border="0" align="left">
+                                    <tr>
+                                        <td>
+                                            <a href="#"><img src="img/content/warm_future/wf_gl_icon_01.png" /></a>
+                                        </td>
+                                        <td>&nbsp;<a href="#" class="gl-link-01">加入</a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="gl-td-width-01">足球</td>
+                            <td class="gl-td-width-02">-</td>
+                            <td class="gl-td-width-03">歐陽泥</td>
+                            <td class="gl-td-width-04">藍色</td>
+                            <td class="gl-td-width-05"><span>家中沒有所以</span></td>
+                            <td class="gl-td-width-06 tooltips">
+                                <table cellpadding="0" cellspacing="0" border="0" align="left">
+                                    <tr>
+                                        <td>
+                                            <a href="#"><img src="img/content/warm_future/wf_gl_icon_02.png" /></a>
+                                        </td>
+                                        <td>&nbsp;<a href="#" class="gl-link-02">己加入</a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="wf-donation-list-paging">
+                    <table cellpadding="0" cellspacing="0" border="0" align="center" class="table-paging">
+                        <tr>
+                            <td class="prev"><a href="#">&lt;</a></td>
+                            <td class="page"><a href="#">1</a></td>
+                            <td class="page"><span>2</span></td>
+                            <td class="page"><a href="#">3</a></td>
+                            <td class="page"><a href="#">4</a></td>
+                            <td class="page"><a href="#">5</a></td>
+                            <td class="next"><a href="#">&gt;</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-bottom"></div>
+        </div>
+    </div>
+    <div class="wf-donation-list-popup">
+        <div class="wf-donation-list-popup-view">
+            <div class="gl-list-popup-close">
+                <a href="#" onclick="close_list_popup();"><img src="img/content/warm_future/wf-gl-my-close-01.png" width="40" height="40" /></a>
+            </div>
+            <div class="gl-list-popup-title-01"><img src="img/content/warm_future/wf-gl-my-title-02.png" width="206" height="19" /></div>
+            <div class="gl-list-popup-title-02"><img src="img/content/warm_future/wf-gl-my-title-01.png" width="705" height="135" /></div>
+            <div class="gl-list-popup-table">
+                <div class="gl-list-popup-table-th">
+                    <table cellpadding="0" cellspacing="0" border="0" class="list-table">
+                        <tr>
+                            <td class="gl-popup-td-width-01">刪除</td>
+                            <td class="gl-popup-td-width-02">縣市</td>
+                            <td class="gl-popup-td-width-03">學校</td>
+                            <td class="gl-popup-td-width-04">品項</td>
+                            <td class="gl-popup-td-width-05">尺吋</td>
+                            <td class="gl-popup-td-width-06">學生姓名</td>
+                            <td class="gl-popup-td-width-07">喜歡顏色</td>
+                            <td class="gl-popup-td-width-08">原因</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="gl-list-popup-table-td">
+                    <table cellpadding="0" cellspacing="0" border="0" class="list-table">
+                        <tr>
+                            <td class="gl-popup-td-width-01"><a href="#">&times;</a></td>
+                            <td class="gl-popup-td-width-02">台北市</td>
+                            <td class="gl-popup-td-width-03">信義國小</td>
+                            <td class="gl-popup-td-width-04">足球</td>
+                            <td class="gl-popup-td-width-05">-</td>
+                            <td class="gl-popup-td-width-06">王小O</td>
+                            <td class="gl-popup-td-width-07">黑白</td>
+                            <td class="gl-popup-td-width-08 tooltips" data-powertip="家中沒有所以家中沒有所以家中沒有所以家中沒有所以">家中沒有
+                                <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="gl-popup-td-width-01"><a href="#">&times;</a></td>
+                            <td class="gl-popup-td-width-02">台北市</td>
+                            <td class="gl-popup-td-width-03">敦化國小</td>
+                            <td class="gl-popup-td-width-04">籃球</td>
+                            <td class="gl-popup-td-width-05">7</td>
+                            <td class="gl-popup-td-width-06">陳大O</td>
+                            <td class="gl-popup-td-width-07">藍色</td>
+                            <td class="gl-popup-td-width-08 tooltips" data-powertip="家中沒有所以家中沒有所以家中沒有所以家中沒有所以">家中沒有
+                                <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="gl-list-popup-table-paging">
+                    <table cellpadding="0" cellspacing="0" border="0" align="center" class="table-paging">
+                        <tr>
+                            <td class="prev"><a href="#">&lt;</a></td>
+                            <td class="page"><a href="#">1</a></td>
+                            <td class="page"><span>2</span></td>
+                            <td class="page"><a href="#">3</a></td>
+                            <td class="page"><a href="#">4</a></td>
+                            <td class="page"><a href="#">5</a></td>
+                            <td class="next"><a href="#">&gt;</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="gl-list-popup-btn">
+                <a href="#" onClick="close_list_popup();" class="gl-popup-btn01"></a>
+                <a href="wf_input_info.html" class="gl-popup-btn02"></a>
             </div>
         </div>
     </div>
-    <div class="footer">
-        <div class="footer-bottom"></div>
-    </div>
-</div>
-<div class="wf-donation-list-popup">
-    <div class="wf-donation-list-popup-view">
-        <div class="gl-list-popup-close"><a href="#" onclick="close_list_popup();"><img src="img/content/warm_future/wf-gl-my-close-01.png" width="40" height="40" /></a></div>
-        <div class="gl-list-popup-title-01"><img src="img/content/warm_future/wf-gl-my-title-02.png" width="206" height="19" /></div>
-        <div class="gl-list-popup-title-02"><img src="img/content/warm_future/wf-gl-my-title-01.png" width="705" height="135" /></div>
-        <div class="gl-list-popup-table">
-            <div class="gl-list-popup-table-th">
-                <table cellpadding="0" cellspacing="0" border="0" class="list-table">
-                    <tr>
-                        <td class="gl-popup-td-width-01">縣市</td>
-                        <td class="gl-popup-td-width-02">學校</td>
-                        <td class="gl-popup-td-width-03">品項</td>
-                        <td class="gl-popup-td-width-04">尺吋</td>
-                        <td class="gl-popup-td-width-05">學生姓名</td>
-                        <td class="gl-popup-td-width-06">喜歡顏色</td>
-                        <td class="gl-popup-td-width-07">原因</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="gl-list-popup-table-td">
-                <table cellpadding="0" cellspacing="0" border="0" class="list-table">
-                    <tr>
-                        <td class="gl-popup-td-width-01">台北市</td>
-                        <td class="gl-popup-td-width-02">信義國小</td>
-                        <td class="gl-popup-td-width-03">足球</td>
-                        <td class="gl-popup-td-width-04">-</td>
-                        <td class="gl-popup-td-width-05">王小O</td>
-                        <td class="gl-popup-td-width-06">黑白</td>
-                        <td class="gl-popup-td-width-07 tooltips" data-powertip="家中沒有所以家中沒有所以家中沒有所以家中沒有所以">家中沒有
-                            <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div></td>
-                    </tr>
-                    <tr>
-                        <td class="gl-popup-td-width-01">台北市</td>
-                        <td class="gl-popup-td-width-02">敦化國小</td>
-                        <td class="gl-popup-td-width-03">籃球</td>
-                        <td class="gl-popup-td-width-04">7</td>
-                        <td class="gl-popup-td-width-05">陳大O</td>
-                        <td class="gl-popup-td-width-06">藍色</td>
-                        <td class="gl-popup-td-width-07 tooltips" data-powertip="家中沒有所以家中沒有所以家中沒有所以家中沒有所以">家中沒有
-                            <div class="wf-tip-icon-01"><img src="img/content/warm_future/wf_tip_icon_01.png" width="17" height="17" /></div></td>
-                    </tr>
-                </table>
-            </div>
-            <div class="gl-list-popup-table-paging">
-                <table cellpadding="0" cellspacing="0" border="0" align="center" class="table-paging">
-                    <tr>
-                        <td class="prev"><a href="#">&lt;</a></td>
-                        <td class="page"><a href="#">1</a></td>
-                        <td class="page"><span>2</span></td>
-                        <td class="page"><a href="#">3</a></td>
-                        <td class="page"><a href="#">4</a></td>
-                        <td class="page"><a href="#">5</a></td>
-                        <td class="next"><a href="#">&gt;</a></td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-        <div class="gl-list-popup-btn"> <a href="#" onClick="close_list_popup();" class="gl-popup-btn01"></a> <a href="wf_input_info.html" class="gl-popup-btn02"></a> </div>
-    </div>
-</div>
-<link rel="stylesheet" href="stylesheets/vendor/jquery.powertip-light.css"/>
-<script src="js/donation_drift_btn.js"></script> 
-<script src="js/plugin/jquery.blockUI.js"></script> 
-<script src="js/plugin/jquery.powertip.min.js"></script> 
-<script type="text/javascript">
-function show_item(){
-    var _width = $(window).width();
-    var _height = $(window).height();
-    
-    if(_height >= 785){
-        _height = 785;
-        _width = 835;
-        $('.wf-donation-list-popup').css('height',_height + 'px').css('width',_width + 'px');       
-    } else {
-        _width = 855;
-        $('.wf-donation-list-popup').css('height',_height + 'px').css('width',_width + 'px');  
+    <link rel="stylesheet" href="stylesheets/vendor/jquery.powertip-light.css" />
+    <script src="js/donation_drift_btn.js"></script>
+    <script src="js/plugin/jquery.blockUI.js"></script>
+    <script src="js/plugin/jquery.powertip.min.js"></script>
+    <script type="text/javascript">
+    function show_item() {
+        var _width = $(window).width();
+        var _height = $(window).height();
+
+        if (_height >= 785) {
+            _height = 785;
+            _width = 835;
+            $('.wf-donation-list-popup').css('height', _height + 'px').css('width', _width + 'px');
+        } else {
+            _width = 855;
+            $('.wf-donation-list-popup').css('height', _height + 'px').css('width', _width + 'px');
+        }
+
+        var _top = $(window).height() - _height;
+        var _left = $(window).width() - _width;
+
+        _top = (_top > 0) ? _top / 2 : 0;
+        _left = (_left > 0) ? _left / 2 : 0;
+        $('.wf-donation-list-popup').css('', '');
+        $.blockUI({
+            message: $('.wf-donation-list-popup'),
+            css: {
+                top: _top + 'px',
+                left: _left + 'px',
+                width: _width + 'px',
+                height: _height + 'px',
+                border: '0px'
+            }
+        });
+        $("body").css('overflow', 'hidden');
     }
-    
-    var _top = $(window).height() - _height;
-    var _left = $(window).width() - _width;
-    
-    _top = (_top > 0) ? _top / 2 : 0;
-    _left = (_left > 0) ? _left / 2 : 0;
-    $('.wf-donation-list-popup').css('','');
-    $.blockUI({ 
-        message: $('.wf-donation-list-popup'), 
-        css: { 
-            top:  _top + 'px', 
-            left: _left + 'px', 
-            width: _width + 'px',
-            height: _height + 'px',
-            border: '0px'
-        } 
-    }); 
-    $("body").css('overflow','hidden');
-}
 
-function close_list_popup(){
-    $.unblockUI();
-     $("body").css('overflow','scroll');
-}
+    function close_list_popup() {
+        $.unblockUI();
+        $("body").css('overflow', 'scroll');
+    }
 
-set_title_tip();
-</script> 
-<script type="text/javascript" src="js/app/headerReplace.js"></script>
+    set_title_tip();
+    </script>
+    <script type="text/javascript" src="js/app/headerReplace.js"></script>
 </body>
+
 </html>
