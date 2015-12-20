@@ -1339,7 +1339,7 @@ body
 }
 
 .wf-is-btn{
-    width:116px;
+    width:379px;
     height:40px;
     margin:auto;
     margin-top:30px;
@@ -1351,6 +1351,16 @@ body
     background:url(../img/content/warm_future/wf-is-btn-01.png) no-repeat;
     width:116px;
     height:40px;
+}
+
+.wf-is-btn02{
+    display:block;
+    float:left;
+    background:url(../img/content/warm_future/wf-is-btn-02.png) no-repeat;
+    width:223px;
+    height:40px;
+    margin-left: 40px
+}
 }
 
 .content img {
