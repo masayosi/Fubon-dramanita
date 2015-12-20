@@ -653,53 +653,49 @@ body
     position:relative;
 }
 
-.wf-tooltip-01{
-    background:url(../img/content/warm_future/wf_tip_01.png) no-repeat;
-    width:78px;
-    height:70px;
+.wf-tooltip{
+    /*background:url(../img/content/warm_future/wf_tip_01.png) no-repeat;*/
+    background: #fff;
+    width: 80px;
+    padding: 10px;
+    height: auto;
+    border: 1px solid #E5E5E5;
 }
 
-.wf-tooltip-01 a{
-    display:block;
-    padding-top:34px;
-    width:78px;
-    height:36px;
-    line-height:36px;
-    font-weight:bold;
-    color:#3e716a;
-    text-align:center;
+.wf-tooltip a{
+    display: block;
+    line-height: 25px;
+    font-weight: bold;
+    color: #3e716a;
+    text-align: center;
 }
 
-.wf-tooltip-02{
+/*.wf-tooltip-02{
     background:url(../img/content/warm_future/wf_tip_02.png) no-repeat;
     width:78px;
     height:36px;
-}
-
+}*/
 .wf-tooltip-02 a{
     display:block;
-    width:78px;
-    height:36px;
-    line-height:36px;
+    line-height: 20px;
     font-weight:bold;
     color:#3e716a;
     text-align:center;
 }
 
-.wf-tooltip-03{
+/*.wf-tooltip-03{
     background:url(../img/content/warm_future/wf_tip_03.png) no-repeat;
     width:78px;
     height:36px;
-}
+}*/
 
 .wf-tooltip-03 a{
     display:block;
-    width:78px;
-    height:36px;
-    line-height:36px;
+    line-height: 20px;
     font-weight:bold;
     color:#3e716a;
     text-align:center;
+    border-bottom: 1px solid ##AAAAAA;
 }
 
 .gi-tooltip{
@@ -710,72 +706,72 @@ body
 
 .gi-tooltip-l1{
     top: 85px;
-    left: 120px;
+    left: 108px;
 }
 
 .gi-tooltip-l2{
     top: 95px;
-    left: 233px;
+    left: 221px;
 }
 
 .gi-tooltip-l3{
     top: 88px;
-    left: 343px;
+    left: 331px;
 }
 
 .gi-tooltip-l4{
     top: 85px;
-    left: 451px;
+    left: 438px;
 }
 
 .gi-tooltip-l5{
     top: 90px;
-    left: 562px;
+    left: 549px;
 }
 
 .gi-tooltip-l6{
     top: 88px;
-    left: 675px;
+    left: 654px;
 }
 
 .gi-tooltip-l7{
     top: 85px;
-    left: 780px;
+    left: 765px;
 }
 
 .gi-tooltip-l8{
     top: 240px;
-    left: 120px;
+    left: 109px;
 }
 
 .gi-tooltip-l9{
     top: 245px;
-    left: 233px;
+    left: 218px;
 }
 
 .gi-tooltip-l10{
     top: 240px;
-    left: 343px;
+    left: 330px;
 }
 
 .gi-tooltip-l11{
     top: 245px;
-    left: 451px;
+    left: 436px;
 }
 
 .gi-tooltip-l12{
     top: 240px;
-    left: 562px;
+    left: 554px;
 }
 
 .gi-tooltip-l13{
     top: 245px;
-    left: 675px;
+    left: 656px;
 }
 
 .gi-tooltip-l14{
     top: 240px;
-    left: 780px;
+    left: 770px;
 }
 
 .gi-icon-table td{ 
