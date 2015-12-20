@@ -138,34 +138,6 @@
 .header .nav > .item2 a, .header .owl-menu > .item2 a {
   width: 155px;
 }
-/* line 74, ../../src/sass/partial/_header.sass */
-.header .nav > .item2 ul, .header .owl-menu > .item2 ul {
-  left: 7px;
-}
-/* line 76, ../../src/sass/partial/_header.sass */
-.header .nav > .item2 ul .sub1, .header .owl-menu > .item2 ul .sub1 {
-  background: url(../img/header/submenu/boss-sub1.png);
-}
-/* line 40, ../../src/sass/partial/_header.sass */
-.header .nav > .item2 ul .sub1:hover, .header .owl-menu > .item2 ul .sub1:hover {
-  background: url(../img/header/submenu/boss-sub1-hover.png);
-}
-/* line 78, ../../src/sass/partial/_header.sass */
-.header .nav > .item2 ul .sub2, .header .owl-menu > .item2 ul .sub2 {
-  background: url(../img/header/submenu/boss-sub2.png);
-}
-/* line 40, ../../src/sass/partial/_header.sass */
-.header .nav > .item2 ul .sub2:hover, .header .owl-menu > .item2 ul .sub2:hover {
-  background: url(../img/header/submenu/boss-sub2-hover.png);
-}
-/* line 80, ../../src/sass/partial/_header.sass */
-.header .nav > .item2 ul .sub3, .header .owl-menu > .item2 ul .sub3 {
-  background: url(../img/header/submenu/boss-sub3.png);
-}
-/* line 40, ../../src/sass/partial/_header.sass */
-.header .nav > .item2 ul .sub3:hover, .header .owl-menu > .item2 ul .sub3:hover {
-  background: url(../img/header/submenu/boss-sub3-hover.png);
-}
 /* line 82, ../../src/sass/partial/_header.sass */
 .header .nav > .item3, .header .owl-menu > .item3 {
   width: 96px;

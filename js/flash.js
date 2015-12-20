@@ -6,6 +6,6 @@ function cut() {
 }
 
 function callMap(num) {
-    alert(num);
+    // alert(num);
     location.href = "wf_donation_city.html?znum=" + num;
 }

@@ -8,10 +8,13 @@ var HeaderReplace = function()
 			//hd.remove();
 			hd.load('header.html',function(){
 				$('.nav li').hover(function () {
-				       $('ul', this).stop().slideToggle(100,function(){
-				         return false;
-				       });
-				     });
+					if($(this).index() != 1)
+					{
+						$('ul', this).stop().slideToggle(100,function(){
+					         return false;
+					      });
+					}
+				});
 			});
 		}
 	};
