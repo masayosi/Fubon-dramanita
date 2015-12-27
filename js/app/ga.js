@@ -30,7 +30,7 @@ function sbga(str)
            path = path[i].replace('.html',""); //把html去掉
        }
    }
-   if(path == 'bosstwo' || path == 'bossbig' || path == 'big-activity' || path == 'two-activity')
+   if(path == 'bosstwo' || path == 'bossbig' || path == 'big-activity' || path == 'two-activity' || path == 'wf_index' || path == 'wf_donation_city' || path == 'wf_donation_school' || path == 'wf_donation_item' || path == 'wf_donation_list' || path == 'wf_input_info' || path == 'wf_input_success')
    {
         ga('send','event','btn','click', path + '/' + str);
    }

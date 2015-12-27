@@ -1335,7 +1335,8 @@ body
 }
 
 .wf-is-btn{
-    width:379px;
+    /*width:379px;*/
+    width:116px;
     height:40px;
     margin:auto;
     margin-top:30px;
