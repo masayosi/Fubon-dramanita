@@ -276,6 +276,7 @@
             </div>
         </div>
         <div class="wf-qoi-btn-panel-01">
+       <a onclick="show_item2()" class="wf-is-btn02"></a>
                 <a href="wf_query_order.html" class="wf-qoi-btn02"></a>
                 <a href="#" class="wf-qoi-btn01"></a>
             </div>
@@ -283,10 +284,70 @@
     <div class="footer">
         <div class="footer-bottom"></div>
     </div>
+    <div class="wf-donation-list-popup2">
+            <div class="wf-donation-list-popup-view momo-popup">
+                <div class="gl-list-popup-close">
+                    <a href="#" onclick="close_list_popup();"><img src="img/content/warm_future/wf-gl-my-close-01.png" width="40" height="40" /></a>
+                </div>
+                <div class="gl-list-popup-title-01"><img src="img/content/warm_future/wf_momo_title_01.png" width="235" height="20" /></div>
+                <div class="gl-list-popup-title-02"><img src="img/content/warm_future/wf_momo_title_02.png" width="705" height="170" /></div>
+                <div class="gl-list-popup-btn-momo">
+                    <a target="_blank" href="http://www.momoshop.com.tw/main/Main.jsp" class="gl-popup-btn03"></a>
+                    <a target="_blank" href="http://www.momoshop.com.tw/category/DgrpCategory.jsp?d_code=3700400021" class="gl-popup-btn04"></a>
+                </div>
+            </div>
+        </div>
 </div>
 <script src="js/donation_drift_btn.js"></script> 
 <link rel="stylesheet" href="stylesheets/vendor/jquery.powertip-light.css"/>
 <script src="js/plugin/jquery.powertip.min.js"></script> 
+<script src="js/plugin/jquery.blockUI.js"></script>
+    <script type="text/javascript">
+    function show_item2() {
+        var _width = $(window).width();
+        var _height = $(window).height();
+
+        if (_height >= 400) {
+            _height = 400;
+            _width = 835;
+            $('.wf-donation-list-popup2').css('height', _height + 'px').css('width', _width + 'px');
+        } else {
+            _width = 855;
+            $('.wf-donation-list-popup2').css('height', _height + 'px').css('width', _width + 'px');
+        }
+
+        var _top = $(window).height() - _height;
+        var _left = $(window).width() - _width;
+
+        _top = (_top > 0) ? _top / 2 : 0;
+        _left = (_left > 0) ? _left / 2 : 0;
+        $('.wf-donation-list-popup2').css('', '');
+        $.blockUI({
+            message: $('.wf-donation-list-popup2'),
+            css: {
+                top: _top + 'px',
+                left: _left + 'px',
+                width: _width + 'px',
+                height: _height + 'px',
+                border: '0px'
+            }
+        });
+        $("body").css('overflow', 'hidden');
+    }
+
+    function close_list_popup() {
+        $.unblockUI();
+        $("body").css('overflow', 'scroll');
+    }
+
+    set_title_tip();
+    </script>
+    <script type="text/javascript">
+    function my_print() {
+        window.open('wf_success_print.html');
+    }
+    set_title_tip();
+    </script>
 <script type="text/javascript">
 set_title_tip();
 

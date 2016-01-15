@@ -1457,6 +1457,28 @@ a {
   cursor: pointer;
 }
 /* line 501, ../../src/sass/style.sass */
+.another-video .video-list li .video-img2015-2 {
+  margin: 0 auto;
+  width: 250px;
+  height: 151px;
+  background-image: url(../img/content/article/charity-about-photo/video2015-2-img.png);
+}
+/* line 442, ../../src/sass/style.sass */
+.another-video .video-list li .video-img2015-2:hover {
+  background-image: url(../img/content/article/charity-about-photo/video2015-2-img-hover.png);
+}
+/* line 501, ../../src/sass/style.sass */
+.another-video .video-list li .video-img2015-1 {
+  margin: 0 auto;
+  width: 250px;
+  height: 151px;
+  background-image: url(../img/content/article/charity-about-photo/video2015-1-img.png);
+}
+/* line 442, ../../src/sass/style.sass */
+.another-video .video-list li .video-img2015-1:hover {
+  background-image: url(../img/content/article/charity-about-photo/video2015-1-img-hover.png);
+}
+/* line 501, ../../src/sass/style.sass */
 .another-video .video-list li .video-img2014 {
   margin: 0 auto;
   width: 250px;

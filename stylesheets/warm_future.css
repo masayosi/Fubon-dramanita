@@ -462,7 +462,7 @@ body
 }
 
 .gl-td-width-01{
-    width:85px;
+    width:95px;
     text-align:center;
 }
 
@@ -472,7 +472,7 @@ body
 }
 
 .gl-td-width-03{
-    width:115px;
+    width:105px;
     text-align:center;
 }
 
@@ -518,10 +518,22 @@ body
     overflow-y:auto;
 }
 
+.wf-donation-list-popup2{
+    display:none;
+    width:835px;
+    height:785px;
+    background-color:#f9f2e6;
+    overflow-y:auto;
+}
+
 .wf-donation-list-popup-view{
     width:835px;
     height:785px;
     position:relative;
+}
+
+.momo-popup{
+    height: 400px;
 }
 
 .gl-list-popup-close{
@@ -589,6 +601,13 @@ body
     margin-top:30px;
 }
 
+.gl-list-popup-btn-momo{
+    width:480px;
+    height:40px;
+    margin:auto;
+    margin-top:30px;
+}
+
 .gl-popup-btn01{
     display:block;
     float:left;
@@ -604,6 +623,23 @@ body
     background:url(../img/content/warm_future/wf-gl-my-btn-02.png) no-repeat;
     width:116px;
     height:40px;
+}
+.gl-popup-btn03{
+    display:block;
+    float:left;
+    background:url(../img/content/warm_future/wf_momo_btn_01.png) no-repeat;
+    width:179px;
+    height:40px;
+    margin-right:40px;
+}
+
+.gl-popup-btn04{
+    display:block;
+    float:left;
+    background:url(../img/content/warm_future/wf_momo_btn_02.png) no-repeat;
+    width:221px;
+    height:40px;
+    margin-right:40px;
 }
 
 .gl-popup-td-width-01{
@@ -761,7 +797,7 @@ body
 
 .gi-tooltip-l12{
     top: 240px;
-    left: 554px;
+    left: 548px;
 }
 
 .gi-tooltip-l13{
@@ -872,7 +908,7 @@ body
 
 .gi-category-icon-12{
     display:block;
-    width:43px;
+    width:106px;
     height:67px;
     background:url(../img/content/warm_future/wf-gi-icon-12.png) no-repeat;
     margin:auto;
@@ -1335,8 +1371,7 @@ body
 }
 
 .wf-is-btn{
-    /*width:379px;*/
-    width:116px;
+    width:379px;
     height:40px;
     margin:auto;
     margin-top:30px;
@@ -1357,7 +1392,6 @@ body
     width:223px;
     height:40px;
     margin-left: 40px
-}
 }
 
 .content img {
@@ -1901,25 +1935,28 @@ body
 }
 
 .wf-qo-td-width-02{
-    width:221px;
+    width:161px;
     text-align:center;
 }
 
 .wf-qo-td-width-03{
-    width:149px;
+    width:129px;
     text-align:center;
 }
 
 .wf-qo-td-width-04{
-    width:104px;
+    width:84px;
     text-align:center;
 }
 
 .wf-qo-td-width-05{
+    width:104px;
+    text-align:center;
+}
+.wf-qo-td-width-06{
     width:134px;
     text-align:center;
 }
-
 .wf-qo-paging{
     position:absolute;
     top:530px;
@@ -2009,23 +2046,23 @@ body
 }
 
 .qoi-td-width-02{
-    width:94px;
+    width:104px;
 }
 
 .qoi-td-width-03{
-    width:102px;
+    width:92px;
 }
 
 .qoi-td-width-04{
-    width:68px;
+    width:128px;
 }
 
 .qoi-td-width-05{
-    width:63px;
+    width:60px;
 }
 
 .qoi-td-width-06{
-    width:109px;
+    width:60px;
 }
 
 .qoi-td-width-07{
@@ -2033,7 +2070,7 @@ body
 }
 
 .qoi-td-width-08{
-    width:85px;
+    width:107px;
 }
 
 .qoi-td-width-09{
@@ -2041,14 +2078,14 @@ body
 }
 
 .wf-qoi-btn-panel-01{
-    width:272px;
+    width:535px;
     height:40px;
     margin:auto;
     margin-top:30px;
 }
 
 .wf-qoi-btn-panel-02{
-    width:116px;
+    width:419px;
     height:40px;
     margin:auto;
     margin-top:30px;
@@ -2072,7 +2109,14 @@ body
     float:left;
      margin-right:40px;
 }
- 
+.wf-qoi-btn03{
+    display:block;
+    background:url(../img/content/warm_future/wf-is-btn-02.png) no-repeat;
+    width:223px;
+    height:40px;
+    float:left;
+}
+
 .wf-love-donation-title{
      width:456px; 
     height:58px;
