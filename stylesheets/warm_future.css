@@ -3,6 +3,19 @@ body
 {
     font-family: sans-serif , "微軟正黑體";
 }
+.edit-icon{
+    margin: 0 8px;
+    text-decoration: underline;
+    color: #000;
+}
+
+.img-style{
+    width: 150px;
+    height: 100px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
 .wf-index-main-bg{ 
     width:980px;
     height:450px; 
@@ -431,7 +444,7 @@ body
 
 .wf-donation-list-table-th{
     position:absolute;
-    top:50px;
+    top:47px;
     left:3px;
 }
 
@@ -492,8 +505,12 @@ body
 }
 
 .gl-td-width-06{
-    width:106px;
+    width:116px;
     text-align:left;
+}
+
+.gl-td-width-06 img{
+    margin-top: 3px;
 }
 
 .gl-td-width-06 table{
@@ -1425,7 +1442,7 @@ body
     position:relative;
     background:url(../img/content/warm_future/wf_qt_frame_01.png) no-repeat;
     width:804px;
-    height:165px;
+    height:282px;
     margin:auto;
     margin-top:50px;
 }
@@ -1454,12 +1471,12 @@ body
 }
 
 .wf-qt-td-width-01{
-    width:112px;
+    width:168px;
     text-align:center;
 }
 
 .wf-qt-td-width-02{
-    width:95px;
+    width:98px;
     text-align:center;
 }
 
@@ -1470,7 +1487,7 @@ body
 }
 
 .wf-qt-td-width-03{
-    width:217px;
+    width:187px;
     text-align:center;
 }
 
@@ -1481,17 +1498,17 @@ body
 }
 
 .wf-qt-td-width-04{
-    width:81px;
+    width:92px;
     text-align:center;
 }
 
 .wf-qt-td-width-05{
-    width:118px;
+    width:132px;
     text-align:center;
 }
 
 .wf-qt-td-width-06{
-    width:168px;
+    width:142px;
     text-align:center;
 }
 
@@ -1499,6 +1516,11 @@ body
     display:block;
     text-align:left;
     margin-left:10px;
+}
+
+.wf-qt-td-width-07{
+    width:80px;
+    text-align:center;
 }
 
 .wf-qt-oops{
@@ -1515,6 +1537,18 @@ body
     height:40px;
     top:240px;
     left:320px;
+}
+
+.wf-qt-table-paging{
+    margin-top: 20px;
+}
+
+.wf-qt-btn01{
+    margin: 0 auto;
+    display: block;
+    width: 116px;
+    height: 40px;
+    background: url(../img/content/warm_future/wf_qoi_btn_01.png) no-repeat;
 }
 
 .wf-volunteer-list-title{
@@ -1615,9 +1649,17 @@ body
     margin-top:50px;
 }
 
+.wf-vi-title-03{
+    text-align: center;
+    color: #0d5672;
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .wf-vi-explanation{
     width:792px;
-    height:300px;
+    height: auto;
+    padding-bottom: 30px;
     font-weight:bold;
     margin:auto;
 }
@@ -1665,7 +1707,6 @@ body
     width:791px;
     height:93px;
     margin:auto;
-    margin-top:50px;
 }
 
 .wf-vi-table-th{
@@ -1697,22 +1738,22 @@ body
 }
 
 .wf-vi-td-width-02{
-    width:304px;
+    width:298px;
     text-align:center;
 }
 
 .wf-vi-td-width-03{
-    width:98px;
+    width:105px;
     text-align:center;
 }
 
 .wf-vi-td-width-04{
-    width:130px;
+    width:139px;
     text-align:center;
 }
 
 .wf-vi-td-width-05{
-    width:138px;
+    width:248px;
     text-align:center;
 }
 
