@@ -543,6 +543,14 @@ body
     overflow-y:auto;
 }
 
+.wf-donation-list-popup3{
+    display:none;
+    width:835px;
+    height:785px;
+    background-color:#f9f2e6;
+    overflow-y:auto;
+}
+
 .wf-donation-list-popup-view{
     width:835px;
     height:785px;
@@ -1549,6 +1557,27 @@ body
     width: 116px;
     height: 40px;
     background: url(../img/content/warm_future/wf_qoi_btn_01.png) no-repeat;
+}
+
+.qt-popup-btn{
+    display:block;
+    background:url(../img/content/warm_future/wf-qt-btn.png) no-repeat;
+    width:114px;
+    height:40px;
+    margin: 0 auto;
+}
+
+.edit-popup{
+    height: 300px;
+}
+
+.wf-qt-bg{
+    background: url(../img/content/warm_future/wf-qt-input-bg.png) no-repeat;
+    width: 519px;
+    height: 52px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .wf-volunteer-list-title{

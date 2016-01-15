@@ -157,10 +157,85 @@
     <div class="footer">
         <div class="footer-bottom"></div>
     </div>
+    <div class="wf-donation-list-popup3">
+            <div class="wf-donation-list-popup-view edit-popup">
+                <div class="gl-list-popup-close">
+                    <a href="#" onclick="close_list_popup2();"><img src="img/content/warm_future/wf-gl-my-close-01.png" width="40" height="40" /></a>
+                </div>
+                <div class="gl-list-popup-title-01"><img src="img/content/warm_future/wf-qt-lb-title.png" width="168" height="18" /></div>
+                <table class="wf-qt-bg">
+                <tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="text" id="service_time" name="service_time" class="wf-ii-form-text" placeholder="修改服務日期" readonly>
+                        </td>
+                    </tr>
+                </table>
+                <div class="gl-list-popup-btn-momo">
+                    <a href="#" class="qt-popup-btn"></a>
+                </div>
+            </div>
+        </div>
 </div>
-<script src="js/donation_drift_btn.js"></script> 
+<script src="js/donation_drift_btn.js"></script>
+<link rel="stylesheet" href="stylesheets/vendor/pikaday.css"> 
 <link rel="stylesheet" href="stylesheets/vendor/jquery.powertip-light.css"/>
-<script src="js/plugin/jquery.powertip.min.js"></script> 
+<script src="js/plugin/jquery.powertip.min.js"></script>
+<script src="js/plugin/moment.js"></script>
+<script src="js/plugin/pikaday.js"></script>
+<script src="js/plugin/jquery.blockUI.js"></script> 
+   <script type="text/javascript">
+   var picker = new Pikaday({
+        field: document.getElementById('service_time'),
+        format: 'D-MMM-YYYY'
+        
+    });
+   show_item3()
+    function show_item3() {
+        var _width = $(window).width();
+        var _height = $(window).height();
+
+        if (_height >= 300) {
+            _height = 300;
+            _width = 835;
+            $('.wf-donation-list-popup3').css('height', _height + 'px').css('width', _width + 'px');
+        } else {
+            _width = 855;
+            $('.wf-donation-list-popup3').css('height', _height + 'px').css('width', _width + 'px');
+        }
+
+        var _top = $(window).height() - _height;
+        var _left = $(window).width() - _width;
+
+        _top = (_top > 0) ? _top / 2 : 0;
+        _left = (_left > 0) ? _left / 2 : 0;
+        $('.wf-donation-list-popup3').css('', '');
+        $('.edit-icon').on('click',function(){
+            $.blockUI({
+                message: $('.wf-donation-list-popup3'),
+                css: {
+                    top: _top + 'px',
+                    left: _left + 'px',
+                    width: _width + 'px',
+                    height: _height + 'px',
+                    border: '0px'
+                }
+            });
+            setTimeout(hidePicker,50);
+        });
+        $("body").css('overflow', 'hidden');
+    }
+    function hidePicker()
+    {
+      picker.hide();
+    }
+
+    function close_list_popup2() {
+        $.unblockUI();
+        $("body").css('overflow', 'scroll');
+    }
+
+    set_title_tip();
+    </script>
 <script type="text/javascript">
 set_title_tip();
 
